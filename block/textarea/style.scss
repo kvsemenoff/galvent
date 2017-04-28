@@ -1,28 +1,40 @@
 
 .message_theme_rosa {
-  display: inline-block;
-  line-height: 24px;
-  max-width: 355px;  
+  display: inline-block;  
+  max-width: 614px;  
   width: 100%;
-  min-height: 125px;
+  min-height: 80px;
   resize:none;
 }
-
+.for_input{
+	display: block;
+	font-size: 15px;
+	color: #3c3c3c;
+	line-height: 27px;
+	font-family: "GothamProRegular";	
+	padding: 0 0 4px 5px;
+	i{
+		color: #ff0000;
+	}
+}
 .message_theme_rosa{
-	font-family: "Segoe UI Regular";	
-	color: #a2a2a2;
-	font-size: 16px;	
-	background: transparent;
-	padding: 7px 20px;
+	background-color: white;
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	border-radius: 5px;
+	padding: 11px 23px;
 	outline: none; 
 	width: 100%;
 	border: 1px solid #cdcdcd;
-	&::-webkit-input-placeholder {color: #a2a2a2;}
-	&::-moz-placeholder          {color: #a2a2a2;}/* Firefox 19+ */
-	&:-moz-placeholder           {color: #a2a2a2;}/* Firefox 18- */
-	&:-ms-input-placeholder      {color: #a2a2a2;}
+	color: #b0b0b0;
+	font-family: "GothamProRegular";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 27px;
+	&::-webkit-input-placeholder {color: #b0b0b0;}
+	&::-moz-placeholder          {color: #b0b0b0;}/* Firefox 19+ */
+	&:-moz-placeholder           {color: #b0b0b0;}/* Firefox 18- */
+	&:-ms-input-placeholder      {color: #b0b0b0;}
 }
 .message_theme_rosa:focus, .message_theme_rosa:active{
-	color: #282828;
-	border: 1px solid #818181;
+	
 }
