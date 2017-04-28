@@ -23,6 +23,12 @@
 		display: block;
 		padding: 0 0 4px 27px;
 	}
+	&__footer{
+		.address__mail-link,
+		.address__info{
+			color: #fff;
+		}
+	}
 	@media only screen and (max-width : 700px) {
 		width: 200px;
 		&__info{
