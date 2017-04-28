@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="block/h1/h1.css">
 	<link rel="stylesheet" href="block/h2/h2.css">
 	<link rel="stylesheet" href="block/main-menu/main-menu.css">
