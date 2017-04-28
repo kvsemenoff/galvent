@@ -1,0 +1,42 @@
+
+.cont{
+	padding-left: 100px;
+}
+
+
+// Кнопки ================ 
+.button__view{
+	display: inline-block;
+	height: 57px;
+	width: 188px;
+	background-color: #f2b600;
+	border-radius: 0px 28px 28px 0px;
+	text-decoration: none;
+	line-height: 54px;
+	padding-left: 16px;
+	position: relative;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+	&_txt{
+		color:#fff;
+		font-size: 16px;
+		font-family: "GothamProRegular";	
+	}
+	&:after{
+		position: absolute;
+		content:"";
+		left:-50px;
+		width: 50px;
+		height: 57px;
+		background:#EEA200 url(../../img/ic.png) no-repeat left 16px center;
+		border-radius: 28px 0px 0px 28px;
+	}
+	&:hover{
+		background:#006887;
+	}
+	&:hover:after{
+		background:#064F65  url(../../img/ic.png) no-repeat left 16px center;
+	}
+}
