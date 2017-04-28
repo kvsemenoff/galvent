@@ -50,4 +50,12 @@
   padding: 20px 30px 17px 30px;
   border-radius: 8px; }
 
+.form_for_main_page__left {
+  max-width: 290px;
+  float: left; }
+
+.form_for_main_page__right {
+  max-width: 290px;
+  float: right; }
+
 /*# sourceMappingURL=style.css.map */
