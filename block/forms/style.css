@@ -1,12 +1,20 @@
+.clear {
+  clear: both; }
+
 .input_theme_rosa {
   display: inline-block;
-  max-width: 335px;
   width: 100%; }
+  @media only screen and (min-width: 580px) {
+    .input_theme_rosa {
+      max-width: 335px; } }
 
 .input_theme_main {
   display: inline-block;
-  max-width: 287px;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 19px; }
+  @media only screen and (min-width: 580px) {
+    .input_theme_main {
+      max-width: 287px; } }
 
 .for_input {
   display: inline-block;
@@ -44,18 +52,73 @@
 
 .form_for_main_page {
   max-width: 685px;
-  width: 100%;
-  display: inline-block;
   background-color: #eff3f4;
-  padding: 20px 30px 17px 30px;
-  border-radius: 8px; }
+  padding: 20px 20px 17px 20px;
+  border-radius: 8px;
+  background-image: url("../../img/formbgimg.png");
+  background-repeat: no-repeat;
+  background-position: bottom -5px right -35px; }
+  @media only screen and (min-width: 1024px) {
+    .form_for_main_page {
+      padding: 20px 30px 17px 30px; } }
 
 .form_for_main_page__left {
-  max-width: 290px;
-  float: left; }
+  margin: 0 auto; }
+  @media only screen and (min-width: 580px) {
+    .form_for_main_page__left {
+      width: 45%;
+      float: left; } }
+  @media only screen and (min-width: 992px) {
+    .form_for_main_page__left {
+      max-width: 287px;
+      width: 100%; } }
 
 .form_for_main_page__right {
-  max-width: 290px;
+  margin: 0 auto; }
+  @media only screen and (min-width: 580px) {
+    .form_for_main_page__right {
+      width: 45%;
+      float: right; } }
+  @media only screen and (min-width: 992px) {
+    .form_for_main_page__right {
+      max-width: 287px;
+      width: 100%;
+      float: right; } }
+
+.form_for_inner_page {
+  max-width: 1170px;
+  padding: 20px 40px;
+  background-color: #eff3f4;
+  padding: 20px 20px 17px 20px;
+  border-radius: 8px;
+  background-image: url("../../img/formbgimg.png");
+  background-repeat: no-repeat;
+  background-position: bottom 10px right 0px; }
+  @media only screen and (min-width: 1024px) {
+    .form_for_inner_page {
+      padding: 20px 40px; } }
+
+.form_for_inner_page_box {
+  display: inline-block;
+  width: 100%; }
+  @media only screen and (min-width: 580px) {
+    .form_for_inner_page_box {
+      margin-right: 15px;
+      float: left;
+      width: 30%; } }
+  @media only screen and (min-width: 992px) {
+    .form_for_inner_page_box {
+      margin-right: 40px; } }
+  @media only screen and (min-width: 1200px) {
+    .form_for_inner_page_box {
+      max-width: 335px;
+      width: 100%; } }
+
+.last_box {
+  margin-right: 0;
   float: right; }
+
+.for_input_margintop {
+  margin-top: 14px; }
 
 /*# sourceMappingURL=style.css.map */
