@@ -1,0 +1,24 @@
+.order_curcle{
+	background-color: #ffcd72;
+	box-shadow: 0 23px 47px rgba(0, 0, 0, 0.2);
+	width: 167px;
+	height: 167px;
+	display: inline-block;
+	border-radius: 50%;	
+	text-align: center; 
+	background-image: url("../../img/ordergalka.png");
+	background-repeat: no-repeat;
+	background-position: top 42px center;
+}
+.order_curcle__text{
+	color: white;
+	font-family: "GothamProRegular";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 25px;
+	display: block;
+	
+}
+.toppadding{
+	padding-top: 80px;
+}
