@@ -18,6 +18,9 @@
 	<link rel="stylesheet" href="block/button/button.css">
 	<link rel="stylesheet" href="block/inputtext/style.css">
 	<link rel="stylesheet" href="block/order/style.css">
+	<link rel="stylesheet" href="block/forms/style.css">
+	<link rel="stylesheet" href="block/socials/socials.css">
+	
 
 
 	<link rel="stylesheet" href="css/style-db.css">
