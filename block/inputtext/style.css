@@ -1,32 +1,45 @@
 .input_theme_rosa {
   display: inline-block;
-  line-height: 24px;
-  max-width: 355px;
+  max-width: 335px;
   width: 100%; }
 
+.input_theme_main {
+  display: inline-block;
+  max-width: 287px;
+  width: 100%; }
+
+.for_input {
+  display: block;
+  font-size: 15px;
+  color: #3c3c3c;
+  line-height: 27px;
+  font-family: "GothamProRegular";
+  padding: 0 0 4px 5px; }
+  .for_input i {
+    color: #ff0000; }
+
 .input__control {
-  font-family: "Segoe UI Regular";
-  color: #a2a2a2;
-  font-size: 16px;
-  line-height: 30px;
-  background: transparent;
-  padding: 7px 20px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  padding: 11px 23px;
   outline: none;
   width: 100%;
   border: 1px solid #cdcdcd;
+  color: #b0b0b0;
+  font-family: "GothamProRegular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
   /* Firefox 19+ */
   /* Firefox 18- */ }
   .input__control::-webkit-input-placeholder {
-    color: #a2a2a2; }
+    color: #b0b0b0; }
   .input__control::-moz-placeholder {
-    color: #a2a2a2; }
+    color: #b0b0b0; }
   .input__control:-moz-placeholder {
-    color: #a2a2a2; }
+    color: #b0b0b0; }
   .input__control:-ms-input-placeholder {
-    color: #a2a2a2; }
-
-.input__control:focus, .input__control:active {
-  color: #282828;
-  border: 1px solid #818181; }
+    color: #b0b0b0; }
 
 /*# sourceMappingURL=style.css.map */
