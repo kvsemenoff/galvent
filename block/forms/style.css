@@ -9,7 +9,7 @@
   width: 100%; }
 
 .for_input {
-  display: block;
+  display: inline-block;
   font-size: 15px;
   color: #3c3c3c;
   line-height: 27px;
