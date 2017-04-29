@@ -108,7 +108,7 @@
       width: 30%; } }
   @media only screen and (min-width: 992px) {
     .form_for_inner_page_box {
-      margin-right: 40px; } }
+      margin-right: 25px; } }
   @media only screen and (min-width: 1200px) {
     .form_for_inner_page_box {
       max-width: 335px;
