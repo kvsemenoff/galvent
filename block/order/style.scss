@@ -73,7 +73,7 @@
 	width: 100px;
 	height: 100px;
 	display: inline-block;
-	background-position: top 15px center;
+	background-position: top 9px center;
 	transition:0.3s;	
 	display: none;
 	@media only screen and (min-width : 992px) {
@@ -89,7 +89,7 @@
 	.toppadding{	
 		padding-top: 40px;
 		@media only screen and (min-width : 400px) {
-			padding-top: 45px;
+			padding-top: 40px;
 		}		
 	}
 }
@@ -103,7 +103,10 @@
 .bread_menu_bg_img{
 	background: url("../../img/breadbg.jpg") no-repeat center;
 	background-size: cover;
-	padding: 9px 0 9px 0;
+	padding: 21px 15px 20px 15px;
+	@media only screen and (min-width : 990px) {
+		padding: 21px 0px 20px 5px;
+	}
 }
 .bread_menu__menu{
 	list-style: none;

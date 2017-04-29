@@ -110,7 +110,8 @@
 
 .form_for_inner_page_box{
 	display: inline-block;	
-	width: 100%;			
+	width: 100%;	
+	text-align: left;		
 	@media only screen and (min-width : 580px) {
 		margin-right: 15px;
 		float: left;		
@@ -130,6 +131,8 @@
 }
 .for_input_margintop{
 	margin-top: 14px;
+	display: block;
+	text-align: left;
 }
 .input_inner_width{
 

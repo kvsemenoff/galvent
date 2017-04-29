@@ -18,6 +18,8 @@ body {
 	}
 }	
 div[class^="col-md"]{
-	padding: 0px;
-	margin: 0px;
+	@media only screen and (min-width : 990px) {
+		padding: 0px;
+		margin: 0px;
+	}
 }
