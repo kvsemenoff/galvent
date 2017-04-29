@@ -112,6 +112,26 @@
 .about .photo:hover { border-color: #006887; }
 .about .photo:hover img { opacity: 0.52; }
 
+.last-article { padding: 40px 0 0; }
+
+.article { padding: 25px 15px; margin: 0 auto; max-width: 400px; }
+@media only screen and (max-width: 700px) { .article { padding: 15px; } }
+.article__img { position: relative; border-radius: 4px; overflow: hidden; margin-bottom: 10px; }
+.article__img img { display: block; }
+.article__img-descr { position: absolute; color: #fff; font-size: 16px; display: block; font-family: "GothamProBold"; left: 35px; bottom: 30px; text-transform: uppercase; padding-left: 20px; line-height: 16px; background: url(../img/yellow-circle.png) 0 1px no-repeat; }
+.article__txt { color: #484e4c; font-size: 15px; line-height: 23px; padding-bottom: 2px; }
+.article__info { position: relative; padding: 7px 0 0; }
+.article__info::before { content: ""; height: 1px; width: 100%; background: #e3e3e3; top: 50%; position: absolute; left: 0; z-index: -1; }
+@media only screen and (max-width: 360px) { .article__info::before { display: none; } }
+.article__date { margin-top: 2px; padding: 0 10px 0 22px; font-size: 14px; z-index: 100; color: #636363; float: left; display: inline-block; background: #fff url(../img/article__date-ic.png) left center no-repeat; }
+.article__button { z-index: 100; display: inline-block; float: right; padding-left: 10px; background: #fff; }
+@media only screen and (max-width: 360px) { .article__button { float: none; padding-left: 0; } }
+.article__nav { margin-top: 15px; padding: 22px 0 12px; background: #eeeeef; }
+.article__page { display: inline-block; border-radius: 4px; width: 37px; line-height: 37px; text-align: center; background: #fff; color: #434444; font-size: 14px; transition: 0.3s all ease; margin: 0 10px 10px 0; }
+.article__page:hover { color: #fff; background: #34393b; }
+.article__nav-button { margin-bottom: 10px; display: inline-block; font-size: 14px; color: #fff; line-height: 37px; padding: 0 33px 0 20px; transition: 0.3s all ease; border-radius: 4px; background: #006087 url(../img/article__nav-ic.png) center right 15px no-repeat; }
+.article__nav-button:hover { background-color: #023245; }
+
 @media only screen and (max-width: 450px) { .fancybox-wrap, .fancybox-desktop, .fancybox-type-image, .fancybox-opened { width: 92% !important; left: 4% !important; }
   .fancybox-wrap .fancybox-inner, .fancybox-desktop .fancybox-inner, .fancybox-type-image .fancybox-inner, .fancybox-opened .fancybox-inner { width: 100% !important; }
   .fancybox-close { right: -3px; } }
