@@ -1,3 +1,41 @@
+.product { padding: 60px 0 35px; }
+@media only screen and (max-width: 1000px) { .product { padding: 30px 0 45px; } }
+@media only screen and (max-width: 700px) { .product { padding: 25px 0 25px; } }
+.product__items { padding: 30px 0; }
+@media only screen and (max-width: 700px) { .product__items { padding: 0; } }
+.product__items-wrap { width: 50%; float: left; }
+@media only screen and (max-width: 1000px) { .product__items-wrap { width: 100%; float: none; } }
+.product .item__inner { display: block; border-radius: 7px; overflow: hidden; height: 225px; -webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1); position: relative; background: #335bab; }
+@media only screen and (max-width: 1000px) and (min-width: 700px) { .product .item__inner { height: 260px; } }
+.product__item { padding: 15px 15px 15px 0; }
+@media only screen and (max-width: 1000px) { .product__item { width: 33.33%; float: left; padding: 15px; }
+  .product__item_first { padding-left: 0; }
+  .product__item_third { padding-right: 0; } }
+@media only screen and (max-width: 700px) { .product__item { width: 100%; max-width: 295px; margin: 0 auto; float: none; padding: 15px 0 !important; } }
+.product__item_big { padding: 15px 0 0 15px; }
+@media only screen and (min-width: 1000px) { .product__item_big .item__inner { height: 480px; } }
+.product .item__img { overflow: hidden; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#edf0f5+0,dbe0ea+100 */ background: #edf0f5; /* Old browsers */ background: -moz-linear-gradient(top, #edf0f5 0%, #dbe0ea 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(top, #edf0f5 0%, #dbe0ea 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(to bottom, #edf0f5 0%, #dbe0ea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf0f5', endColorstr='#dbe0ea',GradientType=0 ); /* IE6-9 */ border-radius: 50%; width: 320px; height: 320px; position: absolute; z-index: 300; }
+.product .item__img img { display: block; z-index: 305; top: 30%; left: 34%; position: absolute; }
+.product .item__img_second img { top: 29%; left: 12%; }
+.product .item__img_third img { top: 17%; left: 9%; }
+@media only screen and (min-width: 1000px) { .product .item__img { left: -95px; top: -50px; }
+  .product .item__img_second { left: auto; right: -130px; }
+  .product .item__img_second img { top: 29%; left: 12%; }
+  .product .item__img_third { left: auto; right: -297px; top: auto; bottom: -297px; width: 646px; height: 646px; }
+  .product .item__img_third img { top: 17%; left: 9%; } }
+@media only screen and (max-width: 1000px) { .product .item__img { left: -45px; bottom: -185px; }
+  .product .item__img img { position: relative; top: auto; left: auto; margin: 15px auto 0; } }
+@media only screen and (max-width: 700px) { .product .item__img { left: 50%; margin-left: -160px; }
+  .product .item__img img { width: 145px; height: 120px; } }
+.product .item__bg { display: block; opacity: 0.38; width: 100%; height: auto; height: 100%; }
+.product .item__title { display: inline-block; position: absolute; color: #fff; font-size: 22px; text-decoration: underline; z-index: 1000; }
+.product .item__title::before { content: ""; position: absolute; left: -22px; top: 9px; display: block; width: 13px; height: 13px; background: url(../img/yellow-circle.png) 0 0 no-repeat; }
+.product .item__title_first { bottom: 43px; right: 35px; }
+.product .item__title_second { top: 45px; left: 60px; }
+.product .item__title_third { top: 45px; left: 60px; }
+@media only screen and (max-width: 1200px) { .product .item__title { font-size: 20px; } }
+@media only screen and (max-width: 1000px) { .product .item__title { top: 25px; left: 40px; right: auto; bottom: auto; } }
+
 .equipment { padding: 125px 0 130px; background: url(../img/equipment-bg.jpg) 0 0/cover; }
 @media only screen and (max-width: 1000px) { .equipment { padding: 75px 0 125px; } }
 @media only screen and (max-width: 700px) { .equipment { padding: 18px 0 30px; }
