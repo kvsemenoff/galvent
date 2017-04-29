@@ -244,9 +244,9 @@
 		}
 	}
 	&__content-wrap{
-		padding: 0 35px 0 0!important;
+		padding: 0 35px 0 0;
 		@media only screen and (max-width : 991px) {
-			padding: 0!important;
+			padding: 0;
 		}
 	}
 	&__content{
