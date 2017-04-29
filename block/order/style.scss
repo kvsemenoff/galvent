@@ -61,6 +61,42 @@
 }
 
 
+.order_curcle_innerpage{
+	background-color: #ffcd72;
+	box-shadow: 0 23px 47px rgba(0, 0, 0, 0.2);
+	border-radius: 50%;	
+	text-align: center; 
+	background-image: url("../../img/ordergalka.png");
+	background-repeat: no-repeat;
+	background-position: top 22px center;
+	text-decoration: none;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	background-position: top 15px center;
+	transition:0.3s;	
+	display: none;
+	@media only screen and (min-width : 992px) {
+		display: inline-block;
+	}			
+	&:hover{
+		background-color: darken(#ffcd72, 10%);
+	}	
+	.order_curcle__text{		
+		font-size: 16px;
+		line-height: 20px;		
+	}
+	.toppadding{	
+		padding-top: 40px;
+		@media only screen and (min-width : 400px) {
+			padding-top: 45px;
+		}		
+	}
+}
+
+
+
+
 
 
 
@@ -92,15 +128,7 @@
 		&:hover{
 			text-decoration: none;
 		}
-		// &:first-child{
-		// 	background-image: url("../../img/house.png");
-		// 	background-repeat: no-repeat;
-		// 	background-position: left top 2.5px;
-		// 	padding-left: 17px;
-		// }
-	}
-
-	
+	}	
 }
 .bread_menu__link_bg{
 	position: relative;
@@ -118,7 +146,7 @@
 		left:-5px;
 		top:0;
 	}
-	@media only screen and (min-width : 1200px) {
+	@media only screen and (min-width : 480px) {
 		font-size: 16px;
 	}
 }
