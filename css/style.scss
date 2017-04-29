@@ -10,3 +10,14 @@ body {
 	font-size: 16px;
 	line-height: 29px;
 }
+
+.container{
+	@media only screen and (min-width : 990px) {
+		padding-left:0 !important;
+		padding-right:0 !important;
+	}
+}	
+div[class^="col-md"]{
+	padding: 0px;
+	margin: 0px;
+}
