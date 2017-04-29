@@ -1,0 +1,111 @@
+.clear{clear:both;}
+
+#reviewStars-input input:checked ~ label, #reviewStars-input label,
+ #reviewStars-input label:hover, #reviewStars-input label:hover ~ label {
+  background: url('../../img/star2.png') no-repeat;
+  background-position: top center;
+  outline: none;
+  border: none;
+}
+
+#reviewStars-input {
+    overflow: hidden;
+    zoom:0;  
+    position: relative;
+    width: 155px;
+    display: inline-block;
+    padding-top: 5px;
+    vertical-align: bottom;
+}
+
+#reviewStars-input input {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;  
+  width: 25px;
+  height: 25px;  
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+#reviewStars-input input:checked ~ label {
+  height: 25px;
+  width: 25px;
+  background: url('../../img/star1.png') no-repeat;
+}
+
+#reviewStars-input label {
+  height: 25px;
+  width: 25px;
+  float: right;
+  cursor: pointer;
+  margin-right: 5px;  
+  position: relative;
+  z-index: 1;
+}
+#reviewStars-input label:hover, #reviewStars-input label:hover ~ label {
+  height: 25px;
+  width: 25px;
+  background: url('../../img/star1.png') no-repeat;
+}
+
+
+.rateandshare_bg{
+    background-color: #eeeeef;
+}
+.rateandshare_container{
+    max-width: 1175px;
+    margin: 0 auto;
+    padding: 25px 0 30px 0;
+}
+.rate_block{
+    float: left;
+}
+.rate_block__rate{
+    display: inline-block;
+    vertical-align: bottom;
+    color: #484e4c;
+    font-family: "GothamProMedium";
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.rate_block__nums{
+    color: #878f8c;
+    font-family: "GothamProRegular";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 29px;
+    display: inline-block;
+    vertical-align: bottom;
+    i{
+        font-style: normal;
+    }
+}
+
+
+.share_block{
+    max-width: 240px;
+    width: 100%;
+    display: inline-block;
+    float: right;
+}
+.share{
+    background-image: url("../../img/shareimg.png");
+    background-repeat: no-repeat;
+    background-position: right top 2px;
+    color: #39434d;
+    font-family: "GothamProLight";
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 19px;
+    display: inline-block;
+    padding: 5px 15px 7px 0;
+}
+.share__socials{
+    margin-left: 14px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 2px;
+}
