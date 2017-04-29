@@ -178,10 +178,14 @@
 
 /* ========= examples =====*/
 .container_margin{
-	margin-bottom: 35px;
+	margin-bottom: 35px;	
 	@media only screen and (min-width : 780px) {
 		margin-bottom: 60px;
 	}
+}
+.examples__height{
+	max-height: 1950px;
+	overflow: hidden;
 }
 .examples__caption{
 	padding: 15px 0 15px 0;
@@ -215,6 +219,19 @@
 .examples__img {
 	height: 285px;
 	position: relative;
+	&:after{
+		content: "";
+		position: absolute;
+		bottom: 10px;
+		right: 12px;
+		width: 62px;
+		height: 62px;
+		background-color: #f2b600;
+		border-radius: 8px;
+		background-image: url("../img/zoom.png");
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
 	img{
 		// position: absolute;
 		// top:50%;

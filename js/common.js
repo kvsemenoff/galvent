@@ -143,6 +143,16 @@ $(document).ready(function(){
 			return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
 		}
 	});
+
+	$('.examples__look_more').on('click', function(){				
+		if ($(this).text() == 'скрыть') {
+			$(this).text('смотреть еще работы');
+			$('.examples__height').css('max-height', '1950px');
+		}else{
+			$(this).text('скрыть');
+			$('.examples__height').css('max-height', 'unset');
+		}
+	});
 });
 
 
