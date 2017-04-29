@@ -85,7 +85,7 @@ $(document).ready(function(){
 
 	
 
-	var owl2 = $("#command__owl_carousel, #filming__owl_slider");
+	var owl2 = $(".examples__slider");
 	owl2.owlCarousel({
 		loop:false,
 		nav:true, 
@@ -135,6 +135,24 @@ $(document).ready(function(){
 		closeEffect	: 'true'
 	});
 
+	$("a[rel=group]").fancybox({
+		'transitionIn' : 'none',
+		'transitionOut' : 'none',
+		'titlePosition' : 'over',
+		'titleFormat' : function(title, currentArray, currentIndex, currentOpts) {
+			return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+		}
+	});
+
+	$('.examples__look_more').on('click', function(){				
+		if ($(this).text() == 'скрыть') {
+			$(this).text('смотреть еще работы');
+			$('.examples__height').css('max-height', '1950px');
+		}else{
+			$(this).text('скрыть');
+			$('.examples__height').css('max-height', 'unset');
+		}
+	});
 });
 
 
