@@ -6,7 +6,9 @@
         <span class="order_curcle__text">заявка</span>
     </a>
     <div class="container">
-        <h2 class="h2 h2_dark direction_header">Направления</h2>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <h2 class="h2 h2_dark direction_header">Направления</h2>
+        </div>
         <div class="col-md-4 col-sm-6">
             <div class="direction_item direction_item_1">
                 <span class="direction_item__circle"></span>
