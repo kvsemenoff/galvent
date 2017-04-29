@@ -85,7 +85,7 @@ $(document).ready(function(){
 
 	
 
-	var owl2 = $("#command__owl_carousel, #filming__owl_slider");
+	var owl2 = $(".examples__slider");
 	owl2.owlCarousel({
 		loop:false,
 		nav:true, 

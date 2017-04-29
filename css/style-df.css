@@ -1,4 +1,4 @@
-.conveyors_page {
+.bread_menu__menu {
   position: relative; }
 
 .conveyors_page_circle {
@@ -13,7 +13,11 @@
     .conveyors__caption {
       padding: 0px 0 40px 0;
       display: inline-block;
-      font-size: 39px; } }
+      font-size: 39px;
+      max-width: 490px; } }
+  @media only screen and (min-width: 990px) {
+    .conveyors__caption {
+      max-width: unset; } }
 
 .container_padding_top {
   padding-top: 25px; }
@@ -72,7 +76,8 @@
     @media only screen and (min-width: 780px) {
       .conveyors__list_txt li {
         font-size: 16px;
-        line-height: 41px; } }
+        line-height: 41px;
+        background-position: left top 15px; } }
 
 @media only screen and (min-width: 780px) {
   .conveyors__list_txt:first-child {
@@ -153,5 +158,36 @@
     background: #064F65 url(../../img/ic2.png) no-repeat left 16px center; }
   .conveyors__submit:hover {
     background: #006887; }
+
+/* ========= examples =====*/
+.examples__caption {
+  padding: 15px 0 15px 0; }
+  @media only screen and (min-width: 780px) {
+    .examples__caption {
+      padding: 52px 0 40px 0; } }
+
+.examples__block_caption {
+  color: #1d2122;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 10px; }
+  @media only screen and (min-width: 780px) {
+    .examples__block_caption {
+      font-size: 28px;
+      line-height: 25px;
+      padding-bottom: 25px; } }
+
+.examples__block_text {
+  color: #393c41;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  padding-top: 10px; }
+  @media only screen and (min-width: 780px) {
+    .examples__block_text {
+      font-size: 16px;
+      line-height: 27px;
+      padding-top: 20px; } }
 
 /*# sourceMappingURL=style-df.css.map */

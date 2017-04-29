@@ -1,4 +1,4 @@
-.conveyors_page{
+.bread_menu__menu{
 	position: relative;
 }
 .conveyors_page_circle{
@@ -13,6 +13,10 @@
 		padding: 0px 0 40px 0;
 		display: inline-block;
 		font-size: 39px;
+		max-width: 490px;
+	}
+	@media only screen and (min-width : 990px) {
+		max-width: unset;
 	}
 }
 .container_padding_top{
@@ -75,6 +79,7 @@
 		@media only screen and (min-width : 780px) {
 			font-size: 16px;
 			line-height: 41px;
+			background-position: left top 15px;
 		}
 	}
 }
@@ -169,3 +174,49 @@
 		background: #006887;		
 	}
 }
+
+
+/* ========= examples =====*/
+.examples__caption{
+	padding: 15px 0 15px 0;
+	@media only screen and (min-width : 780px) {
+		padding: 52px 0 40px 0;
+	}
+}
+.examples__block{
+
+}
+.examples__block_caption{
+	color: #1d2122;	
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 30px;
+	padding-bottom:10px;
+	@media only screen and (min-width : 780px) {
+		font-size: 28px;		
+		line-height: 25px;
+		padding-bottom: 25px;
+	}
+}
+.examples__slider{
+	
+}
+.examples__img{
+
+}
+.examples__block_text{
+	color: #393c41;	
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 23px;
+	padding-top: 10px;
+	@media only screen and (min-width : 780px) {
+		font-size: 16px;
+		line-height: 27px;
+		padding-top: 20px;
+	}
+}
+
+
+
+
