@@ -13,7 +13,8 @@ body {
 
 .container{
 	@media only screen and (min-width : 990px) {
-		padding:0  0 !important;
+		padding-left:0 !important;
+		padding-right:0 !important;
 	}
 }	
 div[class="^col-md"]{
