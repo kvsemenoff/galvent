@@ -120,19 +120,14 @@
 			}
 		}
 		@media only screen and (max-width : 1000px) {
-			left: -45px;
-			bottom: -185px;
-			img{
-		    position: relative;
-		    top: auto;
-		    left: auto;
-		    margin: 15px auto 0;
-			}
-		}
-		@media only screen and (max-width : 700px) {
 			left: 50%;
 			margin-left: -160px;
+			bottom: -185px;
 			img{
+				position: relative;
+				top: auto;
+				left: auto;
+				margin: 15px auto 0;
 				width: 145px;
 				height: 120px;
 			}
@@ -249,9 +244,9 @@
 		}
 	}
 	&__content-wrap{
-		padding: 0 35px 0 0;
+		padding: 0 35px 0 0!important;
 		@media only screen and (max-width : 991px) {
-			padding: 0;
+			padding: 0!important;
 		}
 	}
 	&__content{

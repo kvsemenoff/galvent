@@ -28,6 +28,7 @@
 	<link rel="stylesheet" href="block/forms/style.css">
 	<link rel="stylesheet" href="block/socials/socials.css">
 	<link rel="stylesheet" href="block/rateandshare/style.css">
+	<link rel="stylesheet" href="block/mape/mape.css">
 	
 
 
@@ -40,7 +41,41 @@
 	<link rel="stylesheet" href="css/style-dh.css">
 	<link rel="stylesheet" href="css/style-di.css">
 	<link rel="stylesheet" href="css/style-dj.css">
+	
+	<script src="https://api-maps.yandex.ru/2.1/?lang=tr_TR" type="text/javascript"></script>
+	<script type="text/javascript">
+	    ymaps.ready(init);
+	    var myMap, 
+	        myPlacemark;
 
+	    function init(){ 
+	        myMap = new ymaps.Map("map", {
+	            center: [55.75430171942093,37.762623379623356],
+	            zoom: 16,
+	            controls: []
+	        },
+	        {suppressMapOpenBlock: true}); 
+	        
+	        myPlacemark = new ymaps.Placemark([55.75430171942093,37.762623379623356], {
+	            hintContent: '',
+	            balloonContent: ''
+	        }, {
+	          // Опции.
+	          // Необходимо указать данный тип макета.
+	          iconLayout: 'default#image',
+	          // Своё изображение иконки метки.
+	          iconImageHref: 'img/map-ic.png',
+	          // Размеры метки.
+	          iconImageSize: [30, 35],
+	          // Смещение левого верхнего угла иконки относительно
+	          // её "ножки" (точки привязки).
+	          iconImageOffset: [-5, -38]
+	      }
+	        );
+	        myMap.behaviors.disable('scrollZoom');
+	        myMap.geoObjects.add(myPlacemark);
+	    }
+	</script>
 	
 	
 

@@ -35,7 +35,8 @@
 				</div>
 			</div>
 			<div class="mape">
-				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A76178fbf383c6ff2c94613f08dc6b945ab6397d189d4652defa67306d3b1b562&amp;width=100%25&amp;height=340&amp;lang=ru_RU&amp;scroll=true"></script>
+				<div class="map-img" id="map">
+				</div>
 			</div>
 			<div class="form__title-block">
 				<span class="form__title">Есть вопросы?</span>
