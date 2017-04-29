@@ -1,7 +1,7 @@
 <div class="footer-top footer-top_view footer-top_padding">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3">
+			<div class="col-md-3 col-xs-6 col-sm-3">
 				<div class="footer-social">
 					<span class="wearesocials">Мы в соц.сетях:</span>
 					<div class="socials-inner">
@@ -12,7 +12,7 @@
 					</div>	
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-xs-6 col-sm-3">
 				<ul class="footer-menu">
 					<div class="footer-menu__one">
 						<li class="footer-menu__item"><a href="" class="footer-menu__link">Акции</a></li>
@@ -26,7 +26,7 @@
 					<li class="clearfix"></li>
 				</ul>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-xs-12 col-sm-3">
 				<div class="address address__footer">
 					<span class="address__info">111123 Москва, Шоссе Энтузиастов д.56 стр 47</span>
 					<div class="address__mail">
@@ -35,7 +35,7 @@
 					</div>
 				</div>				
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-xs-12 col-sm-3">
 				<div class="footer-phone">
 				<span class="telefone telefone_footer telefone_padding">+7 (495) 790 7698</span>
 					<a href="#" class="footer-phone__link"><span>заказать обратный звонок</span></a>
