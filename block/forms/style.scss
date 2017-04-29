@@ -1,11 +1,12 @@
 .clear{clear: both;}
 
 .input_theme_rosa {
-  display: inline-block;     
-  width: 100%;
-  @media only screen and (min-width : 580px) {	
-	max-width: 335px; 
-  }
+	  display: inline-block;     
+	  width: 100%;
+	  max-width: unset;
+	  @media only screen and (min-width : 580px) {	
+		max-width: 335px; 
+	  }
 }
 .input_theme_main{
 	display: inline-block;   
@@ -17,7 +18,7 @@
 }
 
 .for_input{
-	display: inline-block;
+	display: block;
 	font-size: 15px;
 	color: #3c3c3c;
 	line-height: 27px;
@@ -25,6 +26,9 @@
 	padding: 0 0 4px 5px;
 	i{
 		color: #ff0000;
+	}
+	@media only screen and (min-width : 580px) {		
+		display: inline-block;
 	}
 }
 .input__control{	
@@ -113,7 +117,7 @@
 		width: 30%;
 	}	
 	@media only screen and (min-width : 992px) {	
-		margin-right: 40px;
+		margin-right: 25px;
 	}
 	@media only screen and (min-width : 1200px) {
 		max-width: 335px;

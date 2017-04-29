@@ -24,7 +24,7 @@
 	<link rel="stylesheet" href="block/button/style.css">
 	<link rel="stylesheet" href="block/inputtext/style.css">
 	<link rel="stylesheet" href="block/order/style.css">
-	<link rel="stylesheet" href="block/textarea/style.css">>
+	<link rel="stylesheet" href="block/textarea/style.css">
 	<link rel="stylesheet" href="block/forms/style.css">
 	<link rel="stylesheet" href="block/socials/socials.css">
 	
