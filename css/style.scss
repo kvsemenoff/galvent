@@ -17,7 +17,7 @@ body {
 		padding-right:0 !important;
 	}
 }	
-div[class="^col-md"]{
+div[class^="col-md"]{
 	padding: 0px;
 	margin: 0px;
 }

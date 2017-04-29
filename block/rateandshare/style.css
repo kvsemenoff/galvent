@@ -68,7 +68,6 @@
   background-color: #eeeeef; }
 
 .rateandshare_container {
-  max-width: 1175px;
   margin: 0 auto;
   padding: 25px 10px 30px 10px; }
   @media only screen and (min-width: 990px) {
@@ -107,9 +106,8 @@
     font-style: normal; }
 
 .share_block {
-  max-width: 240px;
-  width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: center; }
   @media only screen and (min-width: 650px) {
     .share_block {
       float: right;

@@ -22,4 +22,32 @@
     max-width: 100%;
     height: auto; }
 
+.conveyors__list {
+  padding: 30px 43px;
+  background-color: #eeeeef;
+  border-radius: 8px;
+  margin: 25px 0 50px 0; }
+
+.conveyors__list_txt {
+  display: inline-block; }
+  .conveyors__list_txt li {
+    color: #484e4c;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 41px;
+    background-image: url("../img/ellips.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px; }
+
+.conveyors__list_txt:first-child {
+  margin-right: 114px; }
+
+.conveyors__text {
+  color: #484e4c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+  margin-bottom: 35px; }
+
 /*# sourceMappingURL=style-df.css.map */
