@@ -1,0 +1,165 @@
+.services__wrap {
+  width: 100%;
+  background: url(../img/b1.jpg) no-repeat top center;
+  background-size: cover;
+  padding: 60px 0px 74px; }
+
+.br {
+  display: none; }
+  @media only screen and (min-width: 992px) {
+    .br {
+      display: block; } }
+
+.services__view {
+  margin-bottom: 30px;
+  background-color: rgba(5, 43, 91, 0.67);
+  border-radius: 6px;
+  height: 214px;
+  padding-top: 24px;
+  padding-left: 26px; }
+  @media only screen and (min-width: 992px) {
+    .services__view {
+      height: 167px; } }
+  .services__view_first {
+    padding-bottom: 29px; }
+    @media only screen and (min-width: 992px) {
+      .services__view_first {
+        height: 190px; } }
+
+.services__item p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  padding-bottom: 29px;
+  padding-right: 5px; }
+
+.h2_white_pb {
+  padding-bottom: 66px; }
+
+.about__wrap {
+  width: 100%;
+  background: url(../img/bg2.jpg) no-repeat top center;
+  background-size: cover;
+  padding-bottom: 20px; }
+  .about__wrap .h2 {
+    padding: 40px 0px 54px; }
+
+.about__view {
+  border-radius: 8px;
+  padding: 23px 13px;
+  min-height: 186px;
+  margin-bottom: 22px; }
+  .about__view .button__view {
+    margin-top: 15px; }
+    .about__view .button__view span {
+      color: #fff;
+      font-size: 16px;
+      padding-left: 11px;
+      line-height: 52px; }
+  @media only screen and (min-width: 768px) {
+    .about__view {
+      min-height: 227px; } }
+  @media only screen and (min-width: 992px) {
+    .about__view {
+      min-height: 240px;
+      padding-left: 31px; } }
+  @media only screen and (min-width: 1240px) {
+    .about__view {
+      min-height: 194px; } }
+  .about__view span {
+    display: inline-block;
+    font-size: 17px;
+    color: #3e3e3e;
+    line-height: 25px;
+    padding-left: 40px; }
+    @media only screen and (min-width: 768px) {
+      .about__view span {
+        font-size: 20px; } }
+    @media only screen and (min-width: 992px) {
+      .about__view span {
+        padding-left: 56px; } }
+  .about__view p {
+    color: #555454;
+    font-size: 14px;
+    line-height: 24px; }
+    @media only screen and (min-width: 768px) {
+      .about__view p {
+        padding-left: 41px; } }
+    @media only screen and (min-width: 992px) {
+      .about__view p {
+        padding-right: 62px;
+        padding-left: 57px; } }
+  .about__view_1 {
+    background-color: #e5e5e5; }
+    .about__view_1 span {
+      background: url(../img/m1m.png) no-repeat left center; }
+      @media only screen and (min-width: 992px) {
+        .about__view_1 span {
+          background: url(../img/m1.png) no-repeat left center;
+          height: 43px; } }
+  .about__view_2 {
+    border: 4px solid #d9d9d9;
+    background: #F1F1F1; }
+    .about__view_2 span {
+      background: url(../img/m2m.png) no-repeat left center; }
+      @media only screen and (min-width: 992px) {
+        .about__view_2 span {
+          background: url(../img/m2.png) no-repeat left center;
+          height: 43px;
+          padding-left: 65px; } }
+    @media only screen and (min-width: 992px) {
+      .about__view_2 {
+        padding-left: 19px; }
+        .about__view_2 p {
+          padding-left: 66px; } }
+  .about__view_3 {
+    background: url(../img/m4.png) no-repeat top center;
+    background-size: cover;
+    margin-top: 21px;
+    height: 468px;
+    padding-left: 48px;
+    padding-top: 41px; }
+    .about__view_3 p {
+      color: #fff;
+      font-size: 21px;
+      line-height: 34px;
+      padding-left: 4px; }
+    @media only screen and (min-width: 992px) {
+      .about__view_3 {
+        height: 372px; } }
+    @media only screen and (min-width: 1240px) {
+      .about__view_3 {
+        height: 324px; } }
+  .about__view_4 {
+    background-color: white;
+    border: 3px solid #395e8e;
+    border-radius: 0;
+    position: relative; }
+    @media only screen and (min-width: 768px) {
+      .about__view_4 {
+        margin-top: 43px; }
+        .about__view_4 p {
+          padding-left: 6px; } }
+    .about__view_4 .str {
+      position: absolute;
+      top: -20px;
+      left: 50%;
+      transform: translateX(-50%); }
+      @media only screen and (min-width: 768px) {
+        .about__view_4 .str {
+          display: none; } }
+    .about__view_4 .str2 {
+      display: none;
+      top: -26px;
+      left: 7px; }
+      @media only screen and (min-width: 768px) {
+        .about__view_4 .str2 {
+          display: block; } }
+  @media only screen and (min-width: 768px) {
+    .about__view_p {
+      padding-bottom: 35px; } }
+  @media only screen and (min-width: 768px) {
+    .about__view_txt {
+      padding-right: 6px !important; } }
+
+/*# sourceMappingURL=style-dd.css.map */
