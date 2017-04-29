@@ -61,13 +61,49 @@
 }
 
 
+.order_curcle_innerpage{
+	background-color: #ffcd72;
+	box-shadow: 0 23px 47px rgba(0, 0, 0, 0.2);
+	border-radius: 50%;	
+	text-align: center; 
+	background-image: url("../../img/ordergalka.png");
+	background-repeat: no-repeat;
+	background-position: top 22px center;
+	text-decoration: none;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	background-position: top 15px center;
+	transition:0.3s;	
+	display: none;
+	@media only screen and (min-width : 992px) {
+		display: inline-block;
+	}			
+	&:hover{
+		background-color: darken(#ffcd72, 10%);
+	}	
+	.order_curcle__text{		
+		font-size: 16px;
+		line-height: 20px;		
+	}
+	.toppadding{	
+		padding-top: 40px;
+		@media only screen and (min-width : 400px) {
+			padding-top: 45px;
+		}		
+	}
+}
+
+
+
+
 
 
 
 .bread_menu_bg_img{
 	background: url("../../img/breadbg.jpg") no-repeat center;
 	background-size: cover;
-	padding: 25px 0 20px 0;
+	padding: 9px 0 9px 0;
 }
 .bread_menu__menu{
 	list-style: none;
@@ -79,7 +115,8 @@
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 20px;
-	padding-left: 10px;
+	padding-left: 7px;
+	vertical-align: middle;
 	a{
 		text-decoration: underline;
 		color: white;
@@ -92,14 +129,27 @@
 			text-decoration: none;
 		}
 	}	
-	&:first-child{
+}
+.bread_menu__link_bg{
+	position: relative;
+	padding-left: 17px;
+	font-size: 0;
+	&:after{
+		content: "";
+		position: absolute;
 		background-image: url("../../img/house.png");
 		background-repeat: no-repeat;
 		background-position: left top 2.5px;
 		padding-left: 17px;
+		width: 20px;
+		height: 20px;
+		left:-5px;
+		top:0;
+	}
+	@media only screen and (min-width : 480px) {
+		font-size: 16px;
 	}
 }
-
 
 
 
