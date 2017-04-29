@@ -104,7 +104,8 @@
 
 .form_for_inner_page_box {
   display: inline-block;
-  width: 100%; }
+  width: 100%;
+  text-align: left; }
   @media only screen and (min-width: 580px) {
     .form_for_inner_page_box {
       margin-right: 15px;
@@ -123,7 +124,9 @@
   float: right; }
 
 .for_input_margintop {
-  margin-top: 14px; }
+  margin-top: 14px;
+  display: block;
+  text-align: left; }
 
 .form_for_popup {
   max-width: 457px;

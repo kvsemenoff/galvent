@@ -1,6 +1,12 @@
 @charset "UTF-8";
 /* ╨Э╨░╨┐╤А╨░╨▓╨╗╨╡╨╜╨╕╤П */
+.my_circle {
+  position: absolute;
+  right: 175px;
+  top: -50px; }
+
 .direction_content {
+  position: relative;
   padding: 25px 0 30px 0; }
   @media screen and (min-width: 992px) {
     .direction_content {
@@ -12,7 +18,6 @@
     margin-bottom: 30px; }
 
 .direction_header {
-  text-align: center;
   margin-bottom: 25px; }
   @media screen and (min-width: 992px) {
     .direction_header {
@@ -99,6 +104,9 @@
     margin-top: 15px; }
 
 /* Clients */
+.clients_content {
+  position: relative; }
+
 .clients_header__h2 {
   margin-bottom: 30px;
   padding-left: 16px;
@@ -154,6 +162,9 @@
   text-align: center; }
 
 /* ╨а╨╛╨╗╨╕╨║╨╕ */
+.rolik_content {
+  position: relative; }
+
 .rolik_header {
   margin-bottom: 25px;
   margin-top: 25px; }

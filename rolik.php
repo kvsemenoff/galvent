@@ -1,6 +1,10 @@
 <?php require_once('includes/header.php');?>
 <?php require_once('includes/header-top.php');?>
 <div class="rolik_content">
+    <a href="#" class="order_curcle_innerpage my_circle">
+        <span class="order_curcle__text toppadding">On-line</span>
+        <span class="order_curcle__text">заявка</span>
+    </a>
     <div class="container">
         <div class="col-sm-12 col-md-12">
             <h2 class="h2 h2_dark rolik_header">Ролики</h2>

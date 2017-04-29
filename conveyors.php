@@ -24,9 +24,13 @@
 			<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,twitter"></div>
 		</div>		
 	</div>
+	<div class="clear"></div>
 
-	<div class="conveyors__img">
+	<div class="conveyors__img conveyors__img_desk">
 		<img src="img/priora.jpg" alt="">
+	</div>
+	<div class="conveyors__img conveyors__img_mob">
+		<img src="img/priora2.jpg" alt="">
 	</div>
 
 	<div class="conveyors__list">
@@ -49,7 +53,7 @@
 	<p class="conveyors__text"> в формировании позиций, занимаемых участниками в отношении поставленных задач. Повседневная практика показывает, что укрепление и развитие структуры способствует подготовки и реализации направлений прогрессивного развития.</p>
 </div>
 
-<div class="rateandshare_bg">
+<div class="rateandshare_bg conveyors_margin">
 	<div class="container rateandshare_container">
 
 		<div class="rate_block">
@@ -90,31 +94,28 @@
 <div class="container">
 	<h2 class="h2 h2_dark conveyors__caption_form">Остались вопросы?</h2>
 	<span class="conveyors__subtext_form">Свяжитесь с нами через форму обратной связи</span>
+	<div class="form_for_inner_page conveyors__marginbottom">
+		<form action="#" method="post" class="form1">
+			<div class="form_for_inner_page_box">
+				<label for="uname" class="for_input">Ваше ФИО:<i>*</i></label>
+				<span class="input input_theme_rosa"><input type="text" class="input__control" id="uname" name="uname" placeholder="Василий" required></span> 
+			</div>
+			<div class="form_for_inner_page_box">
+				<label for="phone" class="for_input">Телефон:<i>*</i></label>
+				<span class="input input_theme_rosa"><input type="tel" id="phone" class="input__control js-phone" name="phone" placeholder="+7(___)___-__-__" required></span>
+			</div>
+			<div class="form_for_inner_page_box last_box">
+				<label for="email" class="for_input">E-mail:<i>*</i></label>
+				<span class="input input_theme_rosa"><input type="email" id="email" class="input__control" name="email" placeholder="vasiliy@mail.ru" required></span> 
+			</div>
+			<div class="clear"></div>
+			<label for="textmessage" class="for_input for_input_margintop">Комментарий:<i>*</i></label>
+			<textarea name="message" id="textmessage" class="message message_theme_rosa" placeholder="Текст комментария"></textarea>
 
-	<div class="form_for_inner_page">
-
-	<form action="#" method="post" class="form1">
-		<div class="form_for_inner_page_box">
-			<label for="uname" class="for_input">Ваше ФИО:<i>*</i></label>
-			<span class="input input_theme_rosa"><input type="text" class="input__control" id="uname" name="uname" placeholder="Василий" required></span> 
-		</div>
-		<div class="form_for_inner_page_box">
-			<label for="phone" class="for_input">Телефон:<i>*</i></label>
-			<span class="input input_theme_rosa"><input type="tel" id="phone" class="input__control js-phone" name="phone" placeholder="+7(___)___-__-__" required></span>
-		</div>
-		<div class="form_for_inner_page_box last_box">
-			<label for="email" class="for_input">E-mail:<i>*</i></label>
-			<span class="input input_theme_rosa"><input type="email" id="email" class="input__control" name="email" placeholder="vasiliy@mail.ru" required></span> 
-		</div>
-		<div class="clear"></div>
-		<label for="textmessage" class="for_input for_input_margintop">Комментарий:<i>*</i></label>
-		<textarea name="message" id="textmessage" class="message message_theme_rosa" placeholder="Текст комментария"></textarea>
-
-		<a href="#" class="button button__view"><span class="button__view_ico button__view_ico2"></span><span class="button__view_txt button__view_txt3">отправить</span></a>
-	</form>
-
-
-</div>
+			
+			<span class="conveyors__submit"><input type="submit"></span>
+		</form>
+	</div>
 </div>
 
 
