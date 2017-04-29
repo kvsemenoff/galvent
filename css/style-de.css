@@ -93,11 +93,25 @@
 
 .about { padding: 57px 0; }
 .about__descr { padding: 28px 0; font-size: 19px; color: #393f41; display: block; }
+@media only screen and (max-width: 700px) { .about__descr { padding: 15px 0; } }
 .about .ul { margin-bottom: 25px; }
 .about .q { margin-bottom: 22px; }
-.about__text { color: #5f5f5f; font-size: 15px; text-align: center; padding-bottom: 65px; }
+.about__text { color: #5f5f5f; font-size: 15px; text-align: center; padding-bottom: 45px; }
+@media only screen and (max-width: 700px) { .about__text { padding-bottom: 25px; line-height: 1.3; } }
 .about__order-title { display: block; font-size: 34px; color: #484e4c; text-align: center; padding-bottom: 8px; }
-@media only screen and (max-width: 991px) { .about__order-title { font-size: 18px; } }
-.about__order-descr { text-align: center; display: block; font-size: 21px; color: #737876; padding-bottom: 25px; }
-@media only screen and (max-width: 991px) { .about__order-descr { font-size: 15px; } }
+@media only screen and (max-width: 991px) { .about__order-title { font-size: 18px; padding-bottom: 0; } }
+.about__order-descr { text-align: center; display: block; font-size: 21px; color: #737876; padding-bottom: 25px; line-height: 1.3; }
+@media only screen and (max-width: 991px) { .about__order-descr { font-size: 15px; padding-bottom: 15px; } }
 .about .button { border: none; background: none; }
+.about__photos-block { margin: 0 -15px; }
+.about__photo { width: 33.33%; float: left; padding: 0 15px 15px; }
+@media only screen and (max-width: 700px) { .about__photo { width: 100%; } }
+.about .photo { display: block; border: 5px solid #e5e5e5; border-radius: 5px; background: #233944; overflow: hidden; }
+@media only screen and (max-width: 700px) { .about .photo { max-width: 375px; margin: 0 auto; } }
+.about .photo img { display: block; width: 100%; height: auto; min-height: 100%; }
+.about .photo:hover { border-color: #006887; }
+.about .photo:hover img { opacity: 0.52; }
+
+@media only screen and (max-width: 450px) { .fancybox-wrap, .fancybox-desktop, .fancybox-type-image, .fancybox-opened { width: 92% !important; left: 4% !important; }
+  .fancybox-wrap .fancybox-inner, .fancybox-desktop .fancybox-inner, .fancybox-type-image .fancybox-inner, .fancybox-opened .fancybox-inner { width: 100% !important; }
+  .fancybox-close { right: -3px; } }

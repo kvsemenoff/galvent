@@ -1,4 +1,7 @@
-
+html, body{
+	height: auto!important;
+	min-height: 100%;
+}
 .clear{
     clear: both;
 }

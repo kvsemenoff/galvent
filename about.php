@@ -15,8 +15,23 @@
 		</ul>
 		<p class="q">Приглашаем к сотрудничеству потенциальных заказчиков. Мы поставляем  оборудование своим заказчикам со всей России. Наши специалисты готовы оказать необходимую высококвалифицированную консультацию по решению Ваших задач!</p>
 		<span class="about__descr">Фото с нашего производства:</span>
-
-
+		<div class="about__photos-block clearfix">
+			<div class="about__photo">
+				<a class="fancybox photo" href="img/about__photo-1.jpg" data-fancybox-group="gallery">
+					<img src="img/about__photo-1.jpg" alt="" />
+				</a>
+			</div>
+			<div class="about__photo">
+				<a class="fancybox photo" href="img/about__photo-2.jpg" data-fancybox-group="gallery">
+					<img src="img/about__photo-2.jpg" alt="" />
+				</a>
+			</div>
+			<div class="about__photo">
+				<a class="fancybox photo" href="img/about__photo-3.jpg" data-fancybox-group="gallery">
+					<img src="img/about__photo-3.jpg" alt="" />
+				</a>
+			</div>
+		</div>
 		<p class="about__text">Чтобы купить  конвейер, рассчитать его стоимость или получить консультацию специалиста, просто свяжитесь с нами по телефону, указанному на сайте или используйте форму обратной связи.</p>
 		<span class="about__order-title">Желаете сделать заказ?</span>
 		<span class="about__order-descr">Свяжитесь с нами через форму обратной связи</span>

@@ -441,6 +441,9 @@
 		font-size: 19px;
 		color: #393f41;
 		display: block;
+		@media only screen and (max-width : 700px) {
+			padding: 15px 0;
+		}
 	}
 	.ul{
 		margin-bottom: 25px;
@@ -452,7 +455,11 @@
 		color: #5f5f5f;
 		font-size: 15px;
 		text-align: center;
-		padding-bottom: 65px;
+		padding-bottom: 45px;
+		@media only screen and (max-width : 700px) {
+			padding-bottom: 25px;
+			line-height: 1.3;
+		}
 	}
 	&__order-title{
 		display: block;
@@ -462,6 +469,7 @@
 		padding-bottom: 8px;
 		@media only screen and (max-width : 991px) {
 			font-size: 18px;
+			padding-bottom: 0;
 		}
 	}
 	&__order-descr{
@@ -470,12 +478,60 @@
 		font-size: 21px;
 		color: #737876;
 		padding-bottom: 25px;
+		line-height: 1.3;
 		@media only screen and (max-width : 991px) {
 			font-size: 15px;
+			padding-bottom: 15px;
 		}
 	}
 	.button{
 		border: none;
 		background: none;
+	}
+	&__photos-block{
+		margin: 0 -15px;
+	}
+	&__photo{
+		width: 33.33%;
+		float: left;
+		padding: 0 15px 15px;
+		@media only screen and (max-width : 700px) {
+			width: 100%;
+		}
+	}
+	.photo{
+		display: block;
+		border: 5px solid #e5e5e5;
+		border-radius: 5px;
+		background: #233944;
+		overflow: hidden;
+		@media only screen and (max-width : 700px) {
+			max-width: 375px;
+			margin: 0 auto;
+		}
+		img{
+			display: block;
+			width: 100%;
+			height: auto;
+			min-height: 100%;
+		}
+		&:hover{
+			border-color: #006887;
+			img{
+				opacity: 0.52;
+			}
+		}
+	}
+}
+@media only screen and (max-width : 450px) {
+	.fancybox-wrap, .fancybox-desktop, .fancybox-type-image, .fancybox-opened{
+		width: 92%!important;
+		left: 4%!important;
+		.fancybox-inner{
+			width: 100%!important;
+		}
+	}
+	.fancybox-close{
+		right: -3px;
 	}
 }
