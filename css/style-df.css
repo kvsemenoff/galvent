@@ -13,4 +13,13 @@
 .container_padding_top {
   padding-top: 55px; }
 
+.conveyors__share {
+  margin-top: 10px; }
+
+.conveyors__img {
+  width: 100%; }
+  .conveyors__img img {
+    max-width: 100%;
+    height: auto; }
+
 /*# sourceMappingURL=style-df.css.map */

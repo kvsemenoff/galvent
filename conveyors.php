@@ -15,14 +15,20 @@
 
 <div class="container container_padding_top">
 	<h2 class="h2 h2_dark conveyors__caption">Конвейеры в машиностроительстве</h2>
-	<div class="share_block">
-			<span class="share">Поделиться</span>
-			<div class="share__socials">
-				<script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
-				<script src="//yastatic.net/share2/share.js"></script>
-				<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,twitter"></div>
-			</div>
-		</div>
+
+	<div class="share_block conveyors__share">
+		<span class="share">Поделиться</span>
+		<div class="share__socials">
+			<script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+			<script src="//yastatic.net/share2/share.js"></script>
+			<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,twitter"></div>
+		</div>		
+	</div>
+
+	<div class="conveyors__img">
+		<img src="img/priora.jpg" alt="">
+	</div>
+
 
 </div>
 
