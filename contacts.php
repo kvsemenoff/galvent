@@ -34,9 +34,6 @@
 					<div class="clear"></div>
 					<label for="textmessage" class="for_input for_input_margintop">Комментарий:<i>*</i></label>
 					<textarea name="message" id="textmessage" class="message message_theme_rosa" placeholder="Текст комментария"></textarea>
-					<div class="fast__button">
-						<button class="button button__view"><span class="button__view_ico button__view_ico2"></span><span class="button__view_txt button__view_txt3">отправить</span></button>
-					</div>
 				</form>
 			</div>
 		</div>
