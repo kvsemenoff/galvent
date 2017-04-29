@@ -1,3 +1,190 @@
+.product{
+	padding: 60px 0 35px;
+	@media only screen and (max-width : 1000px) {
+		padding: 30px 0 45px;
+	}
+	@media only screen and (max-width : 700px) {
+		padding: 25px 0 25px;
+	}
+	&__items{
+		padding: 30px 0;
+		@media only screen and (max-width : 700px) {
+			padding: 0;
+		}
+	}
+	&__items-wrap{
+		width: 50%;
+		float: left;
+		@media only screen and (max-width : 1000px) {
+			width: 100%;
+			float: none;
+		}
+	}
+	.item__inner{
+		display: block;
+		border-radius: 7px;
+		overflow: hidden;
+		height: 225px;
+		-webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.1);
+		-moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.1);
+		box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.1);
+		position: relative;
+		background: #335bab;
+		@media only screen and (max-width : 1000px) and (min-width : 700px) {
+			height: 260px;
+		}
+	}
+	&__item{
+		padding: 15px 15px 15px 0;
+		@media only screen and (max-width : 1000px) {
+			width: 33.33%;
+			float: left;
+			padding: 15px;
+			&_first{
+				padding-left: 0;
+			}
+			&_third {
+				padding-right: 0;
+			}
+		}
+		@media only screen and (max-width : 700px) {
+			width: 100%;
+			max-width: 295px;
+			margin: 0 auto;
+			float: none;
+			padding: 15px 0!important;
+		}
+		&_big{
+			padding: 15px 0 0 15px;
+			.item__inner{
+				@media only screen and (min-width : 1000px) {
+					height: 480px;
+				}
+			}
+		}
+	}
+	.item__img{
+		overflow: hidden;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#edf0f5+0,dbe0ea+100 */
+		background: #edf0f5; /* Old browsers */
+		background: -moz-linear-gradient(top, #edf0f5 0%, #dbe0ea 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, #edf0f5 0%,#dbe0ea 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, #edf0f5 0%,#dbe0ea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf0f5', endColorstr='#dbe0ea',GradientType=0 ); /* IE6-9 */
+		border-radius: 50%;
+		width: 320px;
+		height: 320px;
+		position: absolute;
+		z-index: 300;
+		img{
+			display: block;
+			z-index: 305;
+	    top: 30%;
+  	  left: 34%;
+  	  position: absolute;
+		}
+		&_second{
+			img{
+	      top: 29%;
+      	left: 12%;
+			}
+		}
+		&_third{
+			img{
+		    top: 17%;
+ 				left: 9%;
+			}
+		}
+		@media only screen and (min-width : 1000px) {
+			left: -95px;
+			top: -50px;
+			&_second{
+				left: auto;
+				right: -130px;
+				img{
+		      top: 29%;
+	      	left: 12%;
+				}
+			}
+			&_third{
+				left: auto;
+				right: -297px;
+				top: auto;
+				bottom: -297px;
+				width: 646px;
+				height: 646px;
+				img{
+			    top: 17%;
+   				left: 9%;
+				}
+			}
+		}
+		@media only screen and (max-width : 1000px) {
+			left: -45px;
+			bottom: -185px;
+			img{
+		    position: relative;
+		    top: auto;
+		    left: auto;
+		    margin: 15px auto 0;
+			}
+		}
+		@media only screen and (max-width : 700px) {
+			left: 50%;
+			margin-left: -160px;
+			img{
+				width: 145px;
+				height: 120px;
+			}
+		}
+	}
+	.item__bg{
+		display: block;
+		opacity: 0.38;
+		width: 100%;
+		height: auto;
+		height: 100%;
+	}
+	.item__title{
+		display: inline-block;
+		position: absolute;
+		color: #fff;
+		font-size: 22px;
+		text-decoration: underline;
+		z-index: 1000;
+		&::before{
+			content: "";
+			position: absolute;
+			left: -22px;
+			top: 9px;
+			display: block;
+			width: 13px;
+			height: 13px;
+			background: url(../img/yellow-circle.png) 0 0 no-repeat;
+		}
+		&_first{
+			bottom: 43px;
+			right: 35px;
+		}
+		&_second{
+			top: 45px;
+			left: 60px;
+		}
+		&_third{
+			top: 45px;
+			left: 60px;
+		}
+		@media only screen and (max-width : 1200px) {
+			font-size: 20px;
+		}
+		@media only screen and (max-width : 1000px) {
+			top: 25px;
+			left: 40px;
+			right: auto;
+			bottom: auto;
+		}
+	}
+}
 .equipment{
 	padding: 125px 0 130px;
 	background: url(../img/equipment-bg.jpg) 0 0/cover;
@@ -68,6 +255,7 @@
 		}
 	}
 	&__content{
+		background: url(../img/fast-bg.png) 130% 122% no-repeat;
 		margin: 40px 0 0;
 		border: 4px solid #efefef;
 		border-radius: 3px;
@@ -130,6 +318,89 @@
 	}
 	&__items{
 		padding-bottom: 45px;
+		margin: 0 -12px;
+		@media only screen and (max-width : 700px) {
+			padding-bottom: 15px;
+		}
+	}
+	&__item{
+		width: 25%;
+		float: left;
+		padding: 0 12px;
+		margin-bottom: 10px;
+		@media only screen and (max-width : 1200px) {
+			width: 50%;
+		}
+		@media only screen and (max-width : 580px) {
+			margin: 0 auto 10px;
+			max-width: 300px;
+			width: 100%;
+			float: none;
+		}
+	}
+	.item{
+		background-color: #e8eff2;
+		padding: 20px 10px 0 64px;
+		height: 122px;
+		border-radius: 7px;
+		position: relative;
+		&::before{
+			content: "";
+			position: absolute;
+			left: 20px;
+			display: block;
+			background-image: url(../img/contacts-ic.png);
+			background-repeat: no-repeat;
+		}
+		&_mape::before{
+			background-position: 0 -8px;
+			height: 32px;
+			width: 24px;
+			top: 26px;
+		}
+		&_massage::before{
+			background-position: -29px -12px;
+			height: 24px;
+			width: 32px;
+			top: 29px;
+		}
+		&_time::before{
+			background-position: -66px -10px;
+			height: 32px;
+			width: 32px;
+			top: 27px;
+		}
+		&_number::before{
+			background-position: -102px -9px;
+			height: 32px;
+			width: 31px;
+			top: 27px;
+		}
+		&__text{
+			color: #2f4c5b;
+			font-size: 15px;
+			display: block;
+		}
+		&__link{
+			font-size: 14px;
+			color: #196690;
+			display: inline-block;
+			border-bottom: 1px solid #c1d5e0;
+			line-height: 1.3;
+			padding-bottom: 2px;
+		}
+		&__title{
+			font-size: 15px;
+			color: #2f4c5b;
+			font-family: "GothamProMedium";
+			display: block;
+		}
+		&__number{
+			font-size: 19px;
+			color: #2f4c5b;
+			font-family: "GothamProMedium";
+			display: block;
+		}
 	}
 	.mape{
 		margin-bottom: 50px;
