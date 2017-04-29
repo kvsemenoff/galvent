@@ -109,33 +109,11 @@ $(document).ready(function(){
         }
 	});
 
-	function counterChangePlus (class1, counter) {
-		var numberClass = parseFloat($(class1).text());
-		if (numberClass < counter) {
-			numberClass++;
-			$(class1).text(numberClass);
-		}	
-	}
-	function counterChangeMinus (class1, counter) {
-		var numberClass = parseFloat($(class1).text());
-		if (numberClass > counter) {
-			numberClass--;
-			$(class1).text(numberClass);
-		}	
-	}	
-
-	$('#command__owl_carousel .df-right').on('click', function() {		
-		counterChangePlus('.command__counter_change', 12);			
-	});
-	$('#command__owl_carousel .df-left').on('click', function() {		
-		counterChangeMinus('.command__counter_change', 1);		
-	});
 	
-	$('#filming__owl_slider .df-right').on('click', function() {			
-		counterChangePlus('.command__counter_change', 5);	
-	});
-	$('#filming__owl_slider .df-left').on('click', function() {			
-		counterChangeMinus('.command__counter_change', 1);			
+	$('#reviewStars-input label').on('click', function(){
+		var x = $(this).attr('for');		
+		x = parseInt(x.match( /\d/g))+1;
+		$('.rate_block__nums i').text(x);		
 	});
 
 	
