@@ -68,6 +68,7 @@
 		}
 	}
 	&__content{
+		background: url(../img/fast-bg.png) 130% 122% no-repeat;
 		margin: 40px 0 0;
 		border: 4px solid #efefef;
 		border-radius: 3px;
@@ -130,6 +131,89 @@
 	}
 	&__items{
 		padding-bottom: 45px;
+		margin: 0 -12px;
+		@media only screen and (max-width : 700px) {
+			padding-bottom: 15px;
+		}
+	}
+	&__item{
+		width: 25%;
+		float: left;
+		padding: 0 12px;
+		margin-bottom: 10px;
+		@media only screen and (max-width : 1200px) {
+			width: 50%;
+		}
+		@media only screen and (max-width : 580px) {
+			margin: 0 auto 10px;
+			max-width: 300px;
+			width: 100%;
+			float: none;
+		}
+	}
+	.item{
+		background-color: #e8eff2;
+		padding: 20px 10px 0 64px;
+		height: 122px;
+		border-radius: 7px;
+		position: relative;
+		&::before{
+			content: "";
+			position: absolute;
+			left: 20px;
+			display: block;
+			background-image: url(../img/contacts-ic.png);
+			background-repeat: no-repeat;
+		}
+		&_mape::before{
+			background-position: 0 -8px;
+			height: 32px;
+			width: 24px;
+			top: 26px;
+		}
+		&_massage::before{
+			background-position: -29px -12px;
+			height: 24px;
+			width: 32px;
+			top: 29px;
+		}
+		&_time::before{
+			background-position: -66px -10px;
+			height: 32px;
+			width: 32px;
+			top: 27px;
+		}
+		&_number::before{
+			background-position: -102px -9px;
+			height: 32px;
+			width: 31px;
+			top: 27px;
+		}
+		&__text{
+			color: #2f4c5b;
+			font-size: 15px;
+			display: block;
+		}
+		&__link{
+			font-size: 14px;
+			color: #196690;
+			display: inline-block;
+			border-bottom: 1px solid #c1d5e0;
+			line-height: 1.3;
+			padding-bottom: 2px;
+		}
+		&__title{
+			font-size: 15px;
+			color: #2f4c5b;
+			font-family: "GothamProMedium";
+			display: block;
+		}
+		&__number{
+			font-size: 19px;
+			color: #2f4c5b;
+			font-family: "GothamProMedium";
+			display: block;
+		}
 	}
 	.mape{
 		margin-bottom: 50px;

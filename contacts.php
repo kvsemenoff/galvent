@@ -4,11 +4,35 @@
 	<div class="container">
 		<h2 class="h2 h2_dark">Наши контакты</h2>
 		<div class="contacts__inner">
-			<div class="contacts__items">
-				<div class="contacts__item"></div>
-				<div class="contacts__item"></div>
-				<div class="contacts__item"></div>
-				<div class="contacts__item"></div>
+			<div class="contacts__items clearfix">
+				<div class="contacts__item">
+					<div class="item item_mape">
+						<span class="item__text">111123 Москва, Шоссе</span>
+						<span class="item__text">Энтузиастов д.56 стр 47 </span>
+						<a class="item__link" href="#">показать на карте</a>
+					</div>
+				</div>
+				<div class="contacts__item">
+					<div class="item item_massage">
+						<span class="item__text">galvent@galvent.su</span>
+						<span class="item__text">snab@galvent.su</span>
+						<a class="item__link" href="#">написать нам</a>
+					</div>
+				</div>
+				<div class="contacts__item">
+					<div class="item item_time">
+						<span class="item__title">Режим работы </span>
+						<span class="item__text">Пн.– Пт.: с 9:00 до 18:00</span>
+						<span class="item__text">Cб.-Вс. - выходные</span>
+					</div>
+				</div>
+				<div class="contacts__item">
+					<div class="item item_number">
+						<span class="item__number">+7 (495) 790 7698</span>
+						<span class="item__number">+7 (495) 229 2647</span>
+						<a class="item__link" href="#">заказть обратный звонок</a>
+					</div>
+				</div>
 			</div>
 			<div class="mape">
 				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A76178fbf383c6ff2c94613f08dc6b945ab6397d189d4652defa67306d3b1b562&amp;width=100%25&amp;height=340&amp;lang=ru_RU&amp;scroll=true"></script>
