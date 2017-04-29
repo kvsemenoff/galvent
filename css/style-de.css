@@ -23,7 +23,7 @@
 @media only screen and (max-width: 991px) { .fast .form_for_main_page { margin: 30px 0 20px; max-width: 100%; }
   .fast .form_for_main_page label { display: block; } }
 .fast__button { text-align: center; margin-top: 19px; }
-.fast button { background: none; }
+.fast button { background: none; border: none; }
 @media only screen and (max-width: 1200px) and (min-width: 991px) { .fast .form_for_main_page__left, .fast .form_for_main_page__right { width: 48%; } }
 
 .contacts { padding: 50px 0 0; }
@@ -39,4 +39,4 @@
 @media only screen and (max-width: 1000px) { .contacts .form__descr { font-size: 15px; } }
 .contacts .form_for_inner_page { margin: 25px 0 50px; }
 @media only screen and (max-width: 991px) { .contacts .form_for_inner_page { margin: 15px 0 25px; } }
-.contacts .form_for_inner_page button { background: none; }
+.contacts .form_for_inner_page button { background: none; border: none; }
