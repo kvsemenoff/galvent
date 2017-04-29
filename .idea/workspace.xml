@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db465169-8cc9-4e01-ad45-739fa76cd908" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-dg.css" afterPath="$PROJECT_DIR$/css/style-dg.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-dg.css.map" afterPath="$PROJECT_DIR$/css/style-dg.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-dg.scss" afterPath="$PROJECT_DIR$/css/style-dg.scss" />
@@ -17,17 +16,17 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style-dg.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style-dg.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style-dg.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="113" column="18" lean-forward="false" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
+            <state relative-caret-position="310">
+              <caret line="116" column="21" lean-forward="false" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clients.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="clients.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clients.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1050">
@@ -46,8 +45,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/direction.php" />
-        <option value="$PROJECT_DIR$/css/style-dg.scss" />
         <option value="$PROJECT_DIR$/clients.php" />
+        <option value="$PROJECT_DIR$/css/style-dg.scss" />
       </list>
     </option>
   </component>
@@ -239,15 +238,15 @@
       <option name="presentableId" value="Default" />
       <updated>1493397761856</updated>
       <workItem from="1493397770726" duration="847000" />
-      <workItem from="1493452263818" duration="7793000" />
+      <workItem from="1493452263818" duration="8361000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8640000" />
+    <option name="totallyTimeSpent" value="9208000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -346,18 +345,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style-dg.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="113" column="18" lean-forward="false" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clients.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
           <caret line="50" column="42" lean-forward="false" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style-dg.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="116" column="21" lean-forward="false" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
           <folding />
         </state>
       </provider>

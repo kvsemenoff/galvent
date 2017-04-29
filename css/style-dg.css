@@ -101,7 +101,11 @@
 /* Clients */
 .clients_header__h2 {
   margin-bottom: 30px;
-  padding-left: 16px; }
+  padding-left: 16px;
+  margin-top: 25px; }
+  @media screen and (min-width: 992px) {
+    .clients_header__h2 {
+      margin-top: 60px; } }
 
 .clients_item__img {
   height: 180px; }
