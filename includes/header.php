@@ -21,7 +21,7 @@
 	<link rel="stylesheet" href="block/link/link.css">
 	<link rel="stylesheet" href="block/telefone/telefone.css">
 	<link rel="stylesheet" href="block/address/address.css">
-	<link rel="stylesheet" href="block/button/button.css">
+	<link rel="stylesheet" href="block/button/style.css">
 	<link rel="stylesheet" href="block/inputtext/style.css">
 	<link rel="stylesheet" href="block/order/style.css">
 	<link rel="stylesheet" href="block/forms/style.css">
