@@ -1,6 +1,10 @@
 <?php require_once('includes/header.php');?>
 <?php require_once('includes/header-top.php');?>
 <div class="direction_content">
+    <a href="#" class="order_curcle_innerpage my_circle">
+        <span class="order_curcle__text toppadding">On-line</span>
+        <span class="order_curcle__text">заявка</span>
+    </a>
     <div class="container">
         <h2 class="h2 h2_dark direction_header">Направления</h2>
         <div class="col-md-4 col-sm-6">

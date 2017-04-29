@@ -1,5 +1,11 @@
 /* Направления */
+.my_circle {
+  position: absolute;
+  right: 175px;
+  top: -50px;
+}
 .direction_content {
+  position: relative;
   padding: 25px 0 30px 0;
   @media screen and (min-width: 992px) {
     padding: 65px 0 55px 0;
@@ -109,6 +115,9 @@
 }
 
 /* Clients */
+.clients_content {
+  position: relative;
+}
 .clients_header__h2 {
   margin-bottom: 30px;
   padding-left: 16px;
@@ -184,6 +193,9 @@
   text-align: center;
 }
 /* Ролики */
+.rolik_content {
+  position: relative;
+}
 .rolik_header {
   margin-bottom: 25px;
   margin-top: 25px;
