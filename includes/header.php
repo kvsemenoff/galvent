@@ -27,6 +27,8 @@
 	<link rel="stylesheet" href="block/textarea/style.css">
 	<link rel="stylesheet" href="block/forms/style.css">
 	<link rel="stylesheet" href="block/socials/socials.css">
+	<link rel="stylesheet" href="block/q/q.css">
+	<link rel="stylesheet" href="block/ul/ul.css">
 	<link rel="stylesheet" href="block/rateandshare/style.css">
 	<link rel="stylesheet" href="block/mape/mape.css">
 	

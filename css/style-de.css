@@ -90,3 +90,14 @@
 .contacts .form_for_inner_page { margin: 25px 0 50px; }
 @media only screen and (max-width: 991px) { .contacts .form_for_inner_page { margin: 15px 0 25px; } }
 .contacts .form_for_inner_page button { background: none; border: none; }
+
+.about { padding: 57px 0; }
+.about__descr { padding: 28px 0; font-size: 19px; color: #393f41; display: block; }
+.about .ul { margin-bottom: 25px; }
+.about .q { margin-bottom: 22px; }
+.about__text { color: #5f5f5f; font-size: 15px; text-align: center; padding-bottom: 65px; }
+.about__order-title { display: block; font-size: 34px; color: #484e4c; text-align: center; padding-bottom: 8px; }
+@media only screen and (max-width: 991px) { .about__order-title { font-size: 18px; } }
+.about__order-descr { text-align: center; display: block; font-size: 21px; color: #737876; padding-bottom: 25px; }
+@media only screen and (max-width: 991px) { .about__order-descr { font-size: 15px; } }
+.about .button { border: none; background: none; }
