@@ -147,10 +147,10 @@ body, html{
 		display: block;
 		@media only screen and (min-width : 992px) {
 			float:left;
-			margin-left: 30px;
+			margin-left: 9px;
 		}
 		@media only screen and (min-width : 1248px) {
-			margin-left: 105px;
+			margin-left: 102px;
 		}
 	}
 	&__link{
@@ -170,15 +170,7 @@ body, html{
 		width: unset;
 	}
 }
-.footer-top_width{
-	@media only screen and (min-width : 992px) {
-		max-width:990px;
-		margin:0 auto;
-	}
-	@media only screen and (min-width : 1248px) {
-		max-width: 1248px;
-	}
-}
+
 .footer-top_view{
 	background: #34393b;
 }

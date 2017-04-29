@@ -1,5 +1,5 @@
 <div class="footer-top footer-top_view footer-top_padding">
-	<div class="footer-top_width">
+	<div class="container">
 		<div class="block-center">
 			<div class="footer-social footer-social_float">
 				<span class="wearesocials">Мы в соц.сетях:</span>
@@ -53,9 +53,6 @@
 	<div class="clearfix"></div>
 </div>
 <div class="footer-bottom footer-bottom_view footer-bottom_padding">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6">
 				<P class="footer-bottom__copyright">&copy;2017 ГАЛВЕНТ - Все права защищены</P>
 			</div>				
 			<div class="col-md-6">
