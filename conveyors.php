@@ -24,6 +24,7 @@
 			<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,twitter"></div>
 		</div>		
 	</div>
+	<div class="clear"></div>
 
 	<div class="conveyors__img conveyors__img_desk">
 		<img src="img/priora.jpg" alt="">

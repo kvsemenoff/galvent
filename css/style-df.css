@@ -44,7 +44,7 @@
 
 .conveyors__img_mob {
   display: block;
-  margin: 0 auto; }
+  text-align: center; }
   @media only screen and (min-width: 780px) {
     .conveyors__img_mob {
       display: none; } }
