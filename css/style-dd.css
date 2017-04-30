@@ -321,4 +321,13 @@
 .form__wrap {
   margin-bottom: 53px; }
 
+.form__title {
+  text-align: center;
+  padding-bottom: 30px; }
+  .form__title .h2 {
+    padding: 0; }
+  .form__title span {
+    color: #737876;
+    font-size: 21px; }
+
 /*# sourceMappingURL=style-dd.css.map */

@@ -47,6 +47,10 @@
 			<div class="clearfix"></div>
 
 			<div class="col-xs-12 col-sm-12 col-md-12">
+				<div class="form__title">
+					<h2 class="h2 h2_dark">Закончилась гарантия?</h2>
+					<span>Оставьте заявку на бесплатный рассчет стоиомтсти обслуживания</span>
+				</div>
 			</div>
 			<div class="clearfix"></div>
 

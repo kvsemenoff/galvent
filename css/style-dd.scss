@@ -372,3 +372,14 @@
 .form__wrap{
 	margin-bottom: 53px;
 }
+.form__title{
+	text-align: center;
+	padding-bottom: 30px;
+	.h2{
+		padding: 0;
+	}
+	span{
+		color: #737876;
+		font-size: 21px;
+	}
+}
