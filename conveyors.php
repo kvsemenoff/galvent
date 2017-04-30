@@ -98,7 +98,7 @@
 	<h2 class="h2 h2_dark conveyors__caption_form">Остались вопросы?</h2>
 	<span class="conveyors__subtext_form">Свяжитесь с нами через форму обратной связи</span>
 	<div class="form_for_inner_page conveyors__marginbottom">
-		<form action="#" method="post" class="form1">
+		<form action="#" method="post" class="js-submit">
 			<div class="form_for_inner_page_box">
 				<label for="uname" class="for_input">Ваше ФИО:<i>*</i></label>
 				<span class="input input_theme_rosa"><input type="text" class="input__control" id="uname" name="uname" placeholder="Василий" required></span> 

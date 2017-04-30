@@ -2,8 +2,9 @@
 $to = "test@yandex.ru ";
 $phone = $_POST['phone'];
 $uname = $_POST['uname'];
-$text = $_POST['сomment'];
+$text = $_POST['message'];
 $email = $_POST['email'];
+$thememessage = $_POST['thememessage'];
 // Формирование заголовка письма
 if(!empty($_POST['subject'])){
 	$subject = $_POST['subject'];
@@ -25,6 +26,9 @@ if(!empty($email)){
 }
 if(!empty($text)){
 	$msg .= "<p><strong>Комментарий:</strong> ".$text."</p>\r\n";
+}
+if(!empty($text)){
+	$msg .= "<p><strong>Тема сообщения:</strong> ".$thememessage."</p>\r\n";
 }
 $msg .= "</body></html>";
 

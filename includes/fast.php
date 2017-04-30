@@ -14,7 +14,7 @@
 			</div>
 			<div class="col-md-7">
 				<div class="form_for_main_page">
-					<form action="#" method="post" class="form1">		
+					<form action="#" method="post" class="js-submit">		
 						<div class="form_for_main_page__left">
 							<label for="main-uname" class="for_input">Ваше ФИО:<i>*</i></label>
 							<span class="input input_theme_main"><input type="text" class="input__control" id="main-uname" name="uname" placeholder="Василий" required></span> 
@@ -27,7 +27,7 @@
 							<span class="input input_theme_main"><input type="email" id="main-email" class="input__control" name="email" placeholder="vasiliy@mail.ru" required></span> 
 
 							<label for="thememessage" class="for_input">Тема сообщения:<i>*</i></label>
-							<span class="input input_theme_main"><input type="email" id="thememessage" class="input__control" name="email" placeholder="Заказ"></span> 
+							<span class="input input_theme_main"><input type="text" id="thememessage" class="input__control" name="thememessage" placeholder="Заказ"></span>
 						</div>
 						<div class="clear"></div>
 						<label for="textmessage" class="for_input">Комментарий:<i>*</i></label>
