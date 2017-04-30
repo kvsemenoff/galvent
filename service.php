@@ -2,19 +2,21 @@
 <?php require_once('includes/header.php'); ?>
 <?php require_once('includes/header-top.php'); ?>
 
-<div class="bread_menu bread_menu_bg_img">
-	<ul class="bread_menu__menu">
-		<li class="bread_menu__link "><a href="/" class="bread_menu__link_bg">Главная</a></li>
-		<li class="bread_menu__link"><span>Сервис</span></li>
-	</ul>
-</div>
-
-<div class="service-wrap">
-	<div class="container relative">
-		<a href="#" class="order_curcle_innerpage">
+<div class="bread_menu bread_menu_bg_img conveyors_page">	
+	<div class="container pos-relative">
+		<ul class="bread_menu__menu">
+			<li class="bread_menu__link "><a href="/" class="bread_menu__link_bg">Главная</a></li>
+			<li class="bread_menu__link"><span>Сервис</span></li>
+		</ul>
+		<a href="#modal__form_order" class="fancybox order_curcle_innerpage conveyors_page_circle">
 			<span class="order_curcle__text toppadding">On-line</span>
 			<span class="order_curcle__text">заявка</span>
 		</a>
+	</div>
+</div>
+
+<div class="service-wrap">
+	<div class="container relative">	
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12">
 				<h2 class="h2 h2_dark">Сервис</h2>

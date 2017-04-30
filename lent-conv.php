@@ -1,19 +1,20 @@
 <?php require_once('includes/header.php'); ?>
 <?php require_once('includes/header-top.php'); ?>
-<div class="bread_menu bread_menu_bg_img">
-
-    <ul class="bread_menu__menu">
-        <li class="bread_menu__link "><a href="/" class="bread_menu__link_bg">Главная</a></li>
-        <li class="bread_menu__link"><a href="#">Последние статьи</a></li>
-        <li class="bread_menu__link"><span>Ленточные конвейеры</span></li>
-    </ul>
-
+<div class="bread_menu bread_menu_bg_img conveyors_page">   
+    <div class="container pos-relative">
+        <ul class="bread_menu__menu">
+            <li class="bread_menu__link "><a href="/" class="bread_menu__link_bg">Главная</a></li>
+             <li class="bread_menu__link "><a href="#" >Последние статьи</a></li>
+            <li class="bread_menu__link"><span>Ленточные конвейеры</span></li>
+        </ul>
+        <a href="#modal__form_order" class="fancybox order_curcle_innerpage conveyors_page_circle">
+            <span class="order_curcle__text toppadding">On-line</span>
+            <span class="order_curcle__text">заявка</span>
+        </a>
+    </div>
 </div>
-<div class="conv_content">
-    <a href="#" class="order_curcle_innerpage my_circle">
-        <span class="order_curcle__text toppadding">On-line</span>
-        <span class="order_curcle__text">заявка</span>
-    </a>
+
+<div class="conv_content">  
     <div class="container">
         <h2 class="h2 h2_dark conv_header hidden-md hidden-lg">Ленточные конвейеры</h2>
         <div class="col-sm-12 col-md-12">

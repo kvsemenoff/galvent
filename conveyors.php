@@ -8,7 +8,7 @@
 			<li class="bread_menu__link"><a href="#">Направления</a></li>
 			<li class="bread_menu__link"><span>Конвейеры в машиностроительстве</span></li>
 		</ul>
-		<a href="#" class="order_curcle_innerpage conveyors_page_circle">
+		<a href="#modal__form_order" class="fancybox order_curcle_innerpage conveyors_page_circle">
 			<span class="order_curcle__text toppadding">On-line</span>
 			<span class="order_curcle__text">заявка</span>
 		</a>
