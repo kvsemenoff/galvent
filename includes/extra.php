@@ -3,12 +3,12 @@
 	<div class="container">
 		<div class="row">
 
-			<div class="col-md-12">
+			<div class="col-xs-12 col-sm-12 col-md-12">
 			<h2 class="h2 h2_white h2_white_pb">Дополнительные услуги</h2>
 			</div>
 			<div class="clearfix"></div>		
 
-			<div class="col-md-4 col-sm-4">
+			<div class="col-sm-4 col-md-4 ">
 				<div class="services services__view services__view_first">
 					<div class="services__item">
 						<img src="img/p1.png" alt="">
@@ -20,7 +20,7 @@
 				</div>
 			</div>
 
-			<div class="col-md-4 col-sm-4">
+			<div class="col-sm-4 col-md-4 ">
 				<div class="services services__view services__view_first">
 					<div class="services__item">
 						<img src="img/p2.png" alt="">
@@ -31,7 +31,7 @@
 				</div>
 			</div>
 
-			<div class="col-md-4 col-sm-4">
+			<div class="col-sm-4 col-md-4 ">
 				<div class="services services__view services__view_first">
 					<div class="services__item">
 						<img src="img/p3.png" alt="">
@@ -45,7 +45,7 @@
 			<div class="clearfix"></div>
 
 
-			<div class="col-md-4 col-sm-4">
+			<div class="col-sm-4 col-md-4 ">
 				<div class="services services__view">
 					<div class="services__item">
 						<img src="img/p4.png" alt="">
@@ -56,7 +56,7 @@
 				</div>
 			</div>
 
-			<div class="col-md-4 col-sm-4">
+			<div class="col-sm-4 col-md-4 ">
 				<div class="services services__view">
 					<div class="services__item">
 						<img src="img/p5.png" alt="">
@@ -67,7 +67,7 @@
 				</div>
 			</div>
 
-			<div class="col-md-4 col-sm-4">
+			<div class="col-sm-4 col-md-4 ">
 				<div class="services services__view">
 					<div class="services__item">
 						<img src="img/p6.png" alt="">

@@ -1,7 +1,7 @@
 <div class="last__wrap">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-5">
+			<div class="col-xs-12 col-sm-12 col-md-5">
 				<h2 class="h2 h2_light">Последние новости</h2>
 				<div class="news-box news-box__view">
 					<span>28.03.17</span>
@@ -22,7 +22,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-7">
+			<div class="col-xs-12 col-sm-12 col-md-7">
 				<div class="news-box news-box__play">
 					<span>Для наглядности предлагаем ознакомится с видеороликами </span>
 					<p>(наведите курсор для проигрывания анимации)</p>
