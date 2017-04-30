@@ -104,13 +104,14 @@
 	background: url("../../img/breadbg.jpg") no-repeat center;
 	background-size: cover;
 	padding: 21px 15px 20px 15px;
+	// position: relative;
 	@media only screen and (min-width : 990px) {
 		padding: 21px 0px 20px 5px;
 	}
 }
 .bread_menu__menu{
 	list-style: none;
-	max-width: 1170px;
+	// max-width: 1170px;
 	margin: 0 auto;	
 }
 .bread_menu__link{
