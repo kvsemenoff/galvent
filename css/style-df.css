@@ -1,4 +1,4 @@
-.bread_menu__menu {
+.bread_menu {
   position: relative; }
 
 .conveyors_page_circle {
@@ -271,5 +271,76 @@
     background-color: #064F65; }
   .examples__look_more:hover {
     background: #006887; }
+
+/*========beltconveyors======*/
+.beltconveyors__text {
+  color: #393f41;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 16px 0 20px 0px; }
+  @media only screen and (min-width: 770px) {
+    .beltconveyors__text {
+      padding: 16px 0 37px 5px; } }
+
+.beltconveyors__img_box {
+  text-align: center; }
+
+.beltconveyors__img_box_marginbot {
+  margin-bottom: 25px; }
+  @media only screen and (min-width: 770px) {
+    .beltconveyors__img_box_marginbot {
+      margin-bottom: 35px; } }
+
+.beltconveyors__link {
+  display: inline-block;
+  position: relative;
+  text-align: left; }
+  @media only screen and (min-width: 768px) {
+    .beltconveyors__link {
+      max-width: 171px;
+      width: 100%;
+      margin-right: 5px; } }
+  @media only screen and (min-width: 990px) {
+    .beltconveyors__link {
+      max-width: unset;
+      width: 23%;
+      margin-right: 20px; } }
+  @media only screen and (min-width: 1200px) {
+    .beltconveyors__link {
+      max-width: 272px;
+      width: 100%; } }
+  .beltconveyors__link img {
+    max-width: 100%;
+    height: auto; }
+  .beltconveyors__link span {
+    position: absolute;
+    bottom: 29px;
+    left: 22px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration: underline; }
+    @media only screen and (min-width: 990px) {
+      .beltconveyors__link span {
+        font-size: 19px; } }
+  .beltconveyors__link:hover span {
+    text-decoration: none; }
+
+.lastmarginoff {
+  margin-right: 0; }
+
+.beltconveyors__caption_form {
+  text-align: center;
+  margin-top: 27px;
+  color: #484e4c;
+  font-size: 24px;
+  line-height: 27px;
+  padding-bottom: 7px; }
+  @media only screen and (min-width: 770px) {
+    .beltconveyors__caption_form {
+      font-size: 34px;
+      margin-top: 52px; } }
 
 /*# sourceMappingURL=style-df.css.map */
