@@ -8,13 +8,13 @@
 			<div class="clearfix"></div>
 
 			<div class="col-sm-6 col-md-6 ">
-				<div class="about about__view about__view_1">
+				<div class="dd-about about__view about__view_1">
 					<span>Широкий перечень услуг</span>
 					<p>Помимо производства и продажи конвейеров, мы предлагаем разработку готового решения внутренней транспортировки</p>
 				</div>
 			</div>
 			<div class="col-sm-6 col-md-6 ">
-				<div class="about about__view about__view_2">
+				<div class="dd-about about__view about__view_2">
 					<span>Качество продукции</span>
 					<p>Опыт и квалификация наших сотрудников позволяет реализовывать сложные проекты в достаточно короткие сроки, и при этом гарантировать качество предоставляемой продукции.</p>
 				</div>
@@ -22,7 +22,7 @@
 			<div class="clearfix"></div>
 
 			<div class="col-sm-6 col-md-6  hidden-xs">
-				<div class="about about__view about__view_3">
+				<div class="dd-about about__view about__view_3">
 					<div class="about__view_img">
 						<img src="img/m3.png" alt="">
 					</div>
@@ -31,7 +31,7 @@
 				</div>
 			</div>
 			<div class="col-sm-6 col-md-6 ">
-				<div class="about about__view about__view_4">
+				<div class="dd-about about__view about__view_4">
 					<div class="str"><img src="img/strm.jpg" alt=""></div>
 					<div class="str str2"><img src="img/bn2.png" alt=""></div>
 					<p class="about__view_p">ПТО Галвент — структурное подразделение "Фабрики Вентиляции ГалВент".</p>
