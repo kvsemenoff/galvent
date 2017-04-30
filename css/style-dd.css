@@ -400,5 +400,60 @@
   .ol_theme_rosa__li_last {
     position: relative;
     padding-top: 14px; } }
+.konveer__item_right {
+  border: 3px solid rgba(0, 0, 0, 0.07);
+  border-radius: 8px; }
+  .konveer__item_right img {
+    margin: 0 auto; }
+.konveer__item_left ul {
+  padding-top: 35px; }
+  .konveer__item_left ul li span {
+    display: inline-block;
+    background: url(../img/yellow-circle.png) no-repeat left top 9px;
+    padding-left: 24px; }
+@media only screen and (min-width: 768px) {
+  .konveer__item_right {
+    width: 37%;
+    float: right; }
+  .konveer__item_left {
+    width: 63%;
+    float: left; } }
+
+.konveer__tth {
+  margin-bottom: 44px; }
+  .konveer__tth_span {
+    color: #393f41;
+    font-family: "GothamProMedium";
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 31px;
+    margin-top: 15px; }
+  .konveer__tth_box {
+    text-align: center;
+    padding: 14px 27px; }
+    .konveer__tth_box_left {
+      background: #F0F0F0; }
+      .konveer__tth_box_left span {
+        color: #393f41;
+        font-size: 16px;
+        font-family: "GothamProMedium"; }
+      @media only screen and (min-width: 768px) {
+        .konveer__tth_box_left {
+          width: 80%;
+          float: left;
+          text-align: left; } }
+    @media only screen and (min-width: 768px) {
+      .konveer__tth_box_right {
+        width: 20%;
+        float: right;
+        background: #F0F0F0;
+        text-align: right; } }
+    @media only screen and (min-width: 768px) {
+      .konveer__tth_box_grey {
+        background: #F0F0F0 !important; }
+      .konveer__tth_box_white {
+        background: #fff !important; } }
+  .konveer__tth_p {
+    padding-top: 42px; }
 
 /*# sourceMappingURL=style-dd.css.map */

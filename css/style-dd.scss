@@ -466,3 +466,81 @@
 		padding-top: 14px;
 	}
 }
+.konveer__item{
+	&_right{
+		border: 3px solid rgba(0, 0, 0, 0.07);
+		border-radius: 8px;
+		img{
+			margin: 0 auto;
+		}
+	}
+	&_left{
+		ul{
+			padding-top: 35px;
+			li{
+				span{
+					display: inline-block;
+					background:url(../img/yellow-circle.png) no-repeat left top 9px;
+					padding-left: 24px;
+				}
+			}
+		}
+	}
+	@media only screen and (min-width : 768px) {
+		&_right{
+			width: 37%;
+			float: right;
+		}
+		&_left{
+			width: 63%;
+			float: left;
+		}
+	}
+}
+.konveer__tth{
+	margin-bottom: 44px;
+	&_span{
+		color: #393f41;
+		font-family: "GothamProMedium";
+		font-size: 18px;
+		display: inline-block;
+		margin-bottom: 31px;
+		margin-top: 15px;
+	}
+	&_box{
+		text-align: center;
+		padding: 14px 27px;
+		&_left{
+			background:#F0F0F0;
+			span{
+				color: #393f41;
+				font-size: 16px;
+				font-family: "GothamProMedium";
+			}
+			@media only screen and (min-width : 768px) {
+				width: 80%;
+				float: left;
+				text-align: left;
+			}
+		}
+		&_right{
+			@media only screen and (min-width : 768px) {
+				width: 20%;
+				float: right;
+				background:#F0F0F0;
+				text-align: right;
+			}
+		}
+		@media only screen and (min-width : 768px) {
+			&_grey{
+				background:#F0F0F0 !important;
+			}
+			&_white{
+				background:#fff !important;
+			}
+		}
+	}
+	&_p{
+		padding-top: 42px;
+	}
+}
