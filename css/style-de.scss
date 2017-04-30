@@ -1,3 +1,29 @@
+.fancybox-skin{
+	border-radius: 6px;
+	background: #fff;
+	padding: 0!important;
+}
+.fancybox-wrap, .fancybox-desktop, .fancybox-type-inline, .fancybox-opened{
+	width: 100%!important;
+	max-width: 460px;
+}
+.fancybox-close{
+	right: -30px;
+	top: -30px;
+	background-size: auto;
+	background-image: url(../img/fancy-close.png)!important;
+}
+.modal{
+	display: none;
+	.button-wrap{
+		margin-top: 15px;
+		text-align: center;
+	}
+	.button{
+		background: none;
+		border: none;
+	}
+}
 .product{
 	padding: 60px 0 35px;
 	@media only screen and (max-width : 1000px) {
