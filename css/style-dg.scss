@@ -2,7 +2,7 @@
 .my_circle {
   position: absolute;
   right: 175px;
-  top: -50px;
+  top: -60px;
 }
 .direction_content {
   position: relative;
@@ -270,4 +270,134 @@
 }
 .rolik_wrap {
   margin-bottom: 40px;
+}
+
+/* Ленточный конвейер */
+.conv_content {
+  padding: 30px 0 40px 0;
+  position: relative;
+  @media screen and (min-width: 992px) {
+    padding: 60px 0 60px 0;
+  }
+}
+.conv_header {
+  display: inline-block;
+}
+.conv_bg {
+  background: url('/img/conv-headerbg.png') 0 0 no-repeat;
+  height:375px;
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  &:after {
+    content: '';
+    width:141px;
+    height: 45px;
+    background-image: url('/img/conv-calendar.png');
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+}
+.conv_h3 {
+  color: #484e4c;
+  font-family: 'GothamProRegular', sans-serif;
+  font-size: 23px;
+  @media screen and (min-width: 992px) {
+    font-size: 28px;
+  }
+  font-weight: 400;
+  line-height: 29px;
+  margin-bottom: 25px;
+  &:after {
+    content: '';
+    display: block;
+    width:66px;
+    height: 1px;
+    margin-top: 15px;
+    background-color: #ffcd72;
+  }
+}
+.conv_p {
+  color: #484e4c;
+  font-family: 'GothamProRegular', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  &_1 {
+    @media screen and (min-width: 992px) {
+      margin-bottom: 40px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    font-size: 16px;
+    line-height: 29px;
+  }
+}
+.conv_list {
+  max-width: 365px;
+  background: #eeeeef;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin:auto;
+}
+.conv_list__p {
+  color: #393f41;
+  padding-left: 14px;
+  padding-right: 14px;
+  font-family: 'GothamProRegular', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 51px;
+  @media screen and (min-width: 992px) {
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+  &:before {
+    content: '';
+    width: 11px;
+    height: 11px;
+    background: url('/img/conv-circle.png') 0 0 no-repeat;
+    display: inline-block;
+    margin-right: 9px;
+  }
+}
+.conv_list__item {
+  background: url('/img/conv-dash.png') bottom left no-repeat;
+  &:last-child {
+    background: none;
+  }
+}
+.conv_block {
+  @media screen and (min-width: 992px) {
+    margin-top: 60px;
+  }
+}
+.conv_images {
+  margin-top: 45px;
+}
+.conv_block__img {
+  width: 100%;
+  display: block;
+  max-width: 572px;
+  margin:auto;
+}
+.conv_block__img3 {
+  max-width: 287px;
+  margin:auto;
+}
+.conv_bg_m {
+  background: url('/img/conv-m.jpg') 0 0 no-repeat;
+  height: 445px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  background-size: cover;
+}
+.conv_m_list {
+  margin-bottom: 40px;
+}
+.conv_m_h3 {
+  margin-top: 40px;
 }

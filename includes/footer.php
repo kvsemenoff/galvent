@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-2 col-sm-6 col-xs-12">
-				<div class="footer-social footer-social_float">
+				<div class="footer-social footer-social_float footer-social_center">
 					<span class="wearesocials">Мы в соц.сетях:</span>
 					<div class="socials-inner">
 						<a href="#" class="socials-link"><i class="fa fa-vk" aria-hidden="true"></i></a>
@@ -26,19 +26,38 @@
 					<li class="clearfix"></li>
 				</ul>
 			</div>				
-			<div class="col-md-3 col-sm-12 col-xs-12">
-				<div class="address address__footer address_padding">
-					<span class="address__info">111123 Москва, Шоссе Энтузиастов д.56 стр 47</span>
-					<div class="address__mail">
-						<span class="address__mail-title">C пометкой Конвейер</span>
-						<a href="#" class="address__mail-link">galvent@galvent.su</a>
+			<div class="up">
+				<div class="col-md-3 col-sm-12 col-xs-12">
+					<div class="address address__footer address_padding">
+						<span class="address__info">111123 Москва, Шоссе Энтузиастов д.56 стр 47</span>
+						<div class="address__mail">
+							<span class="address__mail-title">C пометкой Конвейер</span>
+							<a href="#" class="address__mail-link">galvent@galvent.su</a>
+						</div>
+					</div>	
+				</div>
+				<div class="col-md-3 col-sm-12 col-xs-12">
+					<div class="footer-phone footer-phone_center">
+						<span class="telefone telefone_footer telefone_padding">+7 (495) 790 7698</span>
+						<a href="#" class="footer-phone__link"><span>заказать обратный звонок</span></a>
 					</div>
-				</div>	
+				</div>
 			</div>
-			<div class="col-md-3 col-sm-12 col-xs-12">
-				<div class="footer-phone footer-phone_center">
-					<span class="telefone telefone_footer telefone_padding">+7 (495) 790 7698</span>
-					<a href="#" class="footer-phone__link"><span>заказать обратный звонок</span></a>
+			<div class="down">
+				<div class="col-md-3 col-sm-12 col-xs-12">
+					<div class="footer-phone footer-phone_center footer-phone-bottom">
+						<span class="telefone telefone_footer telefone_padding">+7 (495) 790 7698</span>
+						<a href="#" class="footer-phone__link"><span>заказать обратный звонок</span></a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-12 col-xs-12">
+					<div class="address address__footer address_padding">
+						<span class="address__info">111123 Москва, Шоссе Энтузиастов д.56 стр 47</span>
+						<div class="address__mail">
+							<span class="address__mail-title">C пометкой Конвейер</span>
+							<a href="#" class="address__mail-link">galvent@galvent.su</a>
+						</div>
+					</div>	
 				</div>
 			</div>
 		</div>
@@ -47,11 +66,11 @@
 <div class="footer-bottom footer-bottom_view footer-bottom_padding">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
-				<P class="footer-bottom__copyright">&copy;2017 ГАЛВЕНТ - Все права защищены</P>
+			<div class="col-md-6 col-sm-12 col-xs-12">
+				<p class="footer-bottom__copyright">&copy;2017 ГАЛВЕНТ - Все права защищены</p>
 			</div>				
-			<div class="col-md-6">
-				<P class="footer-bottom__copyright">Разработка сайта "ЮТЕКС Проект"</P>
+			<div class="col-md-6 col-sm-12 col-xs-12">
+				<p class="footer-bottom__site"><a href="#" class="footer-bottom__link"><span>Разработка сайта "ЮТЕКС Проект"</span></a><a href="#"><img src="img/db-ex.png" alt="img"></a></p>
 			</div>
 		</div>
 	</div>
