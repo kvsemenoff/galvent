@@ -7,7 +7,6 @@
 <?php require_once('includes/last.php'); ?>
 <?php require_once('includes/fast.php'); ?>
 <?php require_once('includes/extra.php'); ?>
-<?php require_once('includes/popup.php'); ?>
 <?php require_once('includes/footer.php'); ?>
 
 </body>

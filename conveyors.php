@@ -101,19 +101,19 @@
 		<form action="#" method="post" class="js-submit">
 			<div class="form_for_inner_page_box">
 				<label for="uname" class="for_input">Ваше ФИО:<i>*</i></label>
-				<span class="input input_theme_rosa"><input type="text" class="input__control" id="uname" name="uname" placeholder="Василий" required></span> 
+				<span class="input input_theme_rosa"><input type="text" class="input__control" name="uname" placeholder="Василий" required></span> 
 			</div>
 			<div class="form_for_inner_page_box">
 				<label for="phone" class="for_input">Телефон:<i>*</i></label>
-				<span class="input input_theme_rosa"><input type="tel" id="phone" class="input__control js-phone" name="phone" placeholder="+7(___)___-__-__" required></span>
+				<span class="input input_theme_rosa"><input type="tel" class="input__control js-phone" name="phone" placeholder="+7(___)___-__-__" required></span>
 			</div>
 			<div class="form_for_inner_page_box last_box">
 				<label for="email" class="for_input">E-mail:<i>*</i></label>
-				<span class="input input_theme_rosa"><input type="email" id="email" class="input__control" name="email" placeholder="vasiliy@mail.ru" required></span> 
+				<span class="input input_theme_rosa"><input type="email" class="input__control" name="email" placeholder="vasiliy@mail.ru" required></span> 
 			</div>
 			<div class="clear"></div>
 			<label for="textmessage" class="for_input for_input_margintop">Комментарий:<i>*</i></label>
-			<textarea name="message" id="textmessage" class="message message_theme_rosa" placeholder="Текст комментария"></textarea>
+			<textarea name="message"  class="message message_theme_rosa" placeholder="Текст комментария"></textarea>
 
 			
 			<span class="conveyors__submit"><input type="submit"></span>

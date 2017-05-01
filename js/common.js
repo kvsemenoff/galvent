@@ -70,13 +70,19 @@ $(document).ready(function(){
 				type: "POST", 
 				url: "/sendmessage.php", 
 				data: form_data,
-				success: function() {
-					cleanTnanks(this);
-				}
-			});
+				success: function(form) {
+					$('.js-window').hide();
+					$("input[type=text]").val("");
+					$("input[type=tel]").val("");
+					$("textarea").val("");
+					$('a[href=#modal__thanks]').trigger('click');
+				// location = "thanks.php";
+			}
+		});
 		}
 		return false;
 	});
+
 
 	function cleanTnanks(form){
 		$('.js-window').hide();
@@ -86,6 +92,9 @@ $(document).ready(function(){
 		$('a[href=#modal__thanks]').trigger('click');
 				// location = "thanks.php";
 			};
+
+	
+
 
 
 

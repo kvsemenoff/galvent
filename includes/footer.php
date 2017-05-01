@@ -38,7 +38,7 @@
 			<div class="col-md-3 col-sm-12 col-xs-12">
 				<div class="footer-phone footer-phone_center">
 					<span class="telefone telefone_footer telefone_padding">+7 (495) 790 7698</span>
-					<a href="#" class="footer-phone__link"><span>заказать обратный звонок</span></a>
+					<a href="#modal__form_call" class="footer-phone__link fancybox"><span>заказать обратный звонок</span></a>
 				</div>
 			</div>
 		</div>
@@ -71,6 +71,7 @@
 		</div>
 	</div>
 </div>
+
 
 <div class="modal modal__form" id="modal__form">
   <div class="modal__inner clearfix">
@@ -152,10 +153,7 @@
 		</form>
 	</div>
 </div>
-
-<!-- ////////////////////end popups///////////////////////// -->
-
-
+<a href="#modal__thanks" class="fancybox"></a>
 <!-- JS_BLOCK -->
 <script src="libs/jquery/jquery-1.11.1.min.js"></script>
 <script src="libs/owl.carousel/owl.carousel.js"></script>
