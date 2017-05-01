@@ -263,7 +263,66 @@
 </div>
 
 <div class="menu_md">
-	
-	
+	<div class="container">	
+		<div class="menu_md__left">
+			<img src="img/di-logo-d.png" alt="">
+		</div>	
 
+		<div class="menu_md__right">
+
+			<div class="menu_md__right_item">
+				<div class="menu_sm__item">
+					<div class="address">
+						<span class="address__info">111123 Москва, Шоссе Энтузиастов д.56 стр 47</span>
+						<div class="address__mail">
+							<span class="address__mail-title">C пометкой Конвейер</span>
+							<a href="#" class="address__mail-link">galvent@galvent.su</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="menu_md__right_item2">
+				<div class="menu_sm__item menu_sm__item_tel">
+					<span class="menu_xs__item_tel">+7 (495) 790 7698 </span><br/> <a class="menu_xs__item_link" href="#">заказать обратный звонок</a>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+
+			<div class="menu_md__right_item">
+				<div class="menu-wrap">
+					<nav class="menu">
+						<ul class="main-menu">
+							<li class="point-active">
+								<a href="#">О компании</a>
+							</li>
+							<li>
+								<a href="#">Продукция</a>
+							</li>
+							<li>
+								<a href="#">Производство</a>
+							</li>
+							<li>
+								<a href="#">Гарантия</a>
+							</li>
+							<li>
+								<a href="#">Контакты</a>
+							</li>
+							<li>
+								<div class="search">
+									<form action="#">
+										<div class="search-wrap">
+											<input type="text" placeholder="Поиск">
+											<input type="submit">
+										</div>
+									</form>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>	
+		<div class="clearfix"></div>
+	</div>
 </div>

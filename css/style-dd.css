@@ -590,7 +590,7 @@
   @media only screen and (min-width: 768px) {
     .menu_sm {
       display: block; } }
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 1240px) {
     .menu_sm {
       display: none; } }
 
@@ -600,8 +600,21 @@
 
 .menu_md {
   display: none; }
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 1240px) {
     .menu_md {
       display: block; } }
+
+.menu_md__left {
+  float: left; }
+
+.menu_md__right {
+  float: right; }
+
+.menu_md__right_item {
+  display: inline-block;
+  float: left; }
+
+.menu_md__right_item2 {
+  float: right; }
 
 /*# sourceMappingURL=style-dd.css.map */
