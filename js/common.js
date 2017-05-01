@@ -2,23 +2,23 @@
 
 $(document).ready(function(){
 	$('.main-menu a[href^="#"]').click(function(){ 
-      var $element = $('a[name=' + $(this).attr('href').substr(1) + ']');
-      if($element.length == 1) { 
-         $('html, body').animate({ scrollTop: $element.offset().top }, 500); 
-      }     
-      return false;
-    });
+		var $element = $('a[name=' + $(this).attr('href').substr(1) + ']');
+		if($element.length == 1) { 
+			$('html, body').animate({ scrollTop: $element.offset().top }, 500); 
+		}     
+		return false;
+	});
 
 
 	$(".menu-ico").click(function(){
-        $('.main-menu').slideToggle(0);
-        
-    });
-    $(".main-menu li a").click(function(){
+		$('.main-menu').slideToggle(0);
+
+	});
+	$(".main-menu li a").click(function(){
         //$('.main-menu').slideToggle(0);
         
     });
-    
+
 	$('.js-phone').mask("+7(999)999-99-99?");
 
 	$('a[data-name=modal]').click(function(e) {
@@ -50,7 +50,7 @@ $(document).ready(function(){
 
 
 
-/*MODAL SUBMIT*/
+	/*MODAL SUBMIT*/
 	$('.js-submit').submit(function(){
 		var phone = $(this).find('input[name="phone"]');
 		
@@ -65,22 +65,19 @@ $(document).ready(function(){
 				type: "POST", 
 				url: "/sendmessage.php", 
 				data: form_data,
-				success: function() {
-					cleanTnanks(this);
-				}
-			});
+				success: function(form) {
+					$('.js-window').hide();
+					$("input[type=text]").val("");
+					$("input[type=tel]").val("");
+					$("textarea").val("");
+					// $('a[href=#]').trigger('click');
+				// location = "thanks.php";
+			}
+		});
 		}
 		return false;
 	});
 
-	function cleanTnanks(form){
-		$('.js-window').hide();
-		$("input[type=text]").val("");
-		$("input[type=tel]").val("");
-		$("textarea").val("");
-		$('a[href=#modal__thanks]').trigger('click');
-				// location = "thanks.php";
-			};
 	
 
 	
@@ -107,7 +104,7 @@ $(document).ready(function(){
         		items:1
         	}
         }
-	});
+    });
 
 	
 	$('#reviewStars-input label').on('click', function(){
@@ -158,15 +155,15 @@ $(document).ready(function(){
 
 
 $(function() {
-    $(window).scroll(function() {
-        if($(this).scrollTop() != 0) {
-            $('#toTop').fadeIn();
-        } else {
-            $('#toTop').fadeOut();
-        }
-    });
-    $('#toTop').click(function() {
-        $('body,html').animate({scrollTop:0},800);
-    });
+	$(window).scroll(function() {
+		if($(this).scrollTop() != 0) {
+			$('#toTop').fadeIn();
+		} else {
+			$('#toTop').fadeOut();
+		}
+	});
+	$('#toTop').click(function() {
+		$('body,html').animate({scrollTop:0},800);
+	});
 });
 
