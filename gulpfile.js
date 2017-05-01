@@ -1,11 +1,30 @@
 //файлы css-файлов
+
+
+	
+
+
 var css_our = new Array(
 	'css/reset.css',
 	'css/fonts.css',
 	'css/style.css',
+	'block/h1/h1.css',
 	'block/h2/h2.css',
-	'block/button/button.css',
+	'block/main-menu/main-menu.css',
+	'block/link/link.css',
+	'block/telefone/telefone.css',
+	'block/address/address.css',
+	'block/button/style.css',
 	'block/inputtext/style.css',
+	'block/order/style.css',
+	'block/textarea/style.css',
+	'block/forms/style.css',
+	'block/socials/socials.css',
+	'block/q/q.css',
+	'block/ul/ul.css',
+	'block/rateandshare/style.css',
+	'block/mape/mape.css',
+	'block/mape/search.css',
 	'css/style-db.css',
 	'css/style-dc.css',
 	'css/style-dd.css',
@@ -21,9 +40,23 @@ var scss_our = new Array(
 	'css/reset.scss',
 	'css/fonts.scss',
 	'css/style.scss',
+	'block/h1/h1.scss',
 	'block/h2/h2.scss',
-	'block/button/button.scss',
+	'block/main-menu/main-menu.scss',
+	'block/link/link.scss',
+	'block/telefone/telefone.scss',
+	'block/address/address.scss',
+	'block/button/style.scss',
 	'block/inputtext/style.scss',
+	'block/order/style.scss',
+	'block/textarea/style.scss',
+	'block/forms/style.scss',
+	'block/socials/socials.scss',
+	'block/q/q.scss',
+	'block/ul/ul.scss',
+	'block/rateandshare/style.scss',
+	'block/mape/mape.scss',
+	'block/mape/search.scss',
 	'css/style-db.scss',
 	'css/style-dc.scss',
 	'css/style-dd.scss',
@@ -48,13 +81,12 @@ var css_style_name = 'style.min.css';
 //файлы js-скриптов
 var js_our = new Array(
 	'js/common.js',
-	'js/outerstyles.js'
+	'js/fonts.js'
 );
 var js_libs = new Array(
 	'libs/jquery/jquery-1.11.1.min.js',
 	'libs/owl.carousel/owl.carousel.js',
 	'libs/fancybox/jquery.fancybox.pack.js',
-	'js/jquery.mousewheel.js',
 	'js/jquery.maskedinput.min.js'
 );
 var js_all = js_libs.concat(js_our);

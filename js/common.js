@@ -70,7 +70,7 @@ $(document).ready(function(){
 					$("input[type=text]").val("");
 					$("input[type=tel]").val("");
 					$("textarea").val("");
-					// $('a[href=#]').trigger('click');
+					$('a[href=#modal__thanks]').trigger('click');
 				// location = "thanks.php";
 			}
 		});
