@@ -28,7 +28,7 @@
 					<p>(наведите курсор для проигрывания анимации)</p>
 
 					<div class="news-box__play_wrap">
-						<div class="news-box__play_item">
+						<div class="news-box__play_item it1">
 							<div class="news-box__play_ico">
 								<img src="img/play-ico.png" alt="">
 							</div>
@@ -36,11 +36,12 @@
 								<img src="img/play-ico-m.png" alt="">
 							</div>
 							<div class="news-box__play_img">
-								<img src="img/im1.png" alt="">
+								<img class="img_1" src="img/im1.png" alt="">
+								<img class="gif_1" src="img/gif1.gif" alt="">
 							</div>
 						</div>
 
-						<div class="news-box__play_item">
+						<div class="news-box__play_item it2">
 							<div class="news-box__play_ico">
 								<img src="img/play-ico.png" alt="">
 							</div>
@@ -48,11 +49,12 @@
 								<img src="img/play-ico-m.png" alt="">
 							</div>
 							<div class="news-box__play_img">
-								<img src="img/im2.png" alt="">
+								<img class="img_2" src="img/im2.png" alt="">
+								<img class="gif_2" src="img/gif2.gif" alt="">
 							</div>
 						</div>
 
-						<div class="news-box__play_item">
+						<div class="news-box__play_item it3">
 							<div class="news-box__play_ico">
 								<img src="img/play-ico.png" alt="">
 							</div>
@@ -60,11 +62,12 @@
 								<img src="img/play-ico-m.png" alt="">
 							</div>
 							<div class="news-box__play_img">
-								<img src="img/im3.png" alt="">
+								<img class="img_3" src="img/im3.png" alt="">
+								<img class="gif_3" src="img/gif3.gif" alt="">
 							</div>
 						</div>
 
-						<div class="news-box__play_item">
+						<div class="news-box__play_item it4">
 							<div class="news-box__play_ico">
 								<img src="img/play-ico.png" alt="">
 							</div>
@@ -72,11 +75,12 @@
 								<img src="img/play-ico-m.png" alt="">
 							</div>
 							<div class="news-box__play_img">
-								<img src="img/im4.png" alt="">
+								<img class="img_4" src="img/im4.png" alt="">
+								<img class="gif_4" src="img/gif4.gif" alt="">
 							</div>
 						</div>
 
-						<div class="news-box__play_item news-box__play_item_last">
+						<div class="news-box__play_item news-box__play_item_last it5">
 							<div class="news-box__play_ico">
 								<img src="img/play-ico.png" alt="">
 							</div>
@@ -84,11 +88,12 @@
 								<img src="img/play-ico-m.png" alt="">
 							</div>
 							<div class="news-box__play_img">
-								<img src="img/im5.png" alt="">
+								<img class="img_5" src="img/im5.png" alt="">
+								<img class="gif_5" src="img/gif5.gif" alt="">
 							</div>
 						</div>
 
-						<div class="news-box__play_item news-box__play_item_last">
+						<div class="news-box__play_item news-box__play_item_last it6">
 							<div class="news-box__play_ico">
 								<img src="img/play-ico.png" alt="">
 							</div>
@@ -96,7 +101,8 @@
 								<img src="img/play-ico-m.png" alt="">
 							</div>
 							<div class="news-box__play_img">
-								<img src="img/im6.png" alt="">
+								<img class="img_6" src="img/im6.png" alt="">
+								<img class="gif_6" src="img/gif1.gif" alt="">
 							</div>
 						</div>
 					</div>
