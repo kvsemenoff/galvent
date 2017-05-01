@@ -1,4 +1,4 @@
-<div class="modal modal__form" id="modal__form_order">
+<!-- <div class="modal modal__form" id="modal__form_order">
 	<div class="form_for_popup">
 		<h4 class="form_popup__caption">Онлайн заявка</h4>
 		<form action="#" method="post" class="form1 js-submit">	
@@ -15,9 +15,9 @@
 			</div>
 		</form>
 	</div>
-</div>
+</div> -->
 
-<div class="modal modal__form" id="modal__form_call">
+<!-- <div class="modal modal__form" id="modal__form_call">
 	<div class="form_for_popup">
 		<h4 class="form_popup__caption">заказать обратный звонок</h4>
 		<form action="#" method="post" class="form1 js-submit">	
@@ -30,4 +30,4 @@
 			</div>		
 		</form>
 	</div>
-</div>
+</div> -->
