@@ -167,7 +167,7 @@
 		<div class="clearfix"></div>
 
 		<div class="online__mess">
-			<a href="#">Онлайн заявка</a>
+			<a class="fancybox" href="#modal__form_call">Онлайн заявка</a>
 		</div>	
 		<div class="clearfix"></div>
 
@@ -222,7 +222,7 @@
 
 			<div class="col-xs-4 col-sm-4 col-md-4">
 				<div class="menu_sm__item menu_sm__item_tel">
-					<span class="menu_xs__item_tel">+7 (495) 790 7698 </span> <a class="menu_xs__item_link" href="#">заказать обратный звонок</a>
+					<span class="menu_xs__item_tel">+7 (495) 790 7698 </span> <a class="menu_xs__item_link fancybox" href="#modal__form_call">заказать обратный звонок</a>
 				</div>
 				<div class="search">
 					<form action="#">
@@ -284,7 +284,7 @@
 
 			<div class="menu_md__right_item2">
 				<div class="menu_sm__item menu_sm__item_tel">
-					<span class="menu_xs__item_tel">+7 (495) 790 7698 </span><br/> <a class="menu_xs__item_link" href="#">заказать обратный звонок</a>
+					<span class="menu_xs__item_tel">+7 (495) 790 7698 </span><br/> <a class="menu_xs__item_link fancybox" href="#modal__form_call">заказать обратный звонок</a>
 				</div>
 			</div>
 			<div class="clearfix"></div>
