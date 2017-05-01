@@ -1,15 +1,15 @@
-<div class="header-m">
+<!-- <div class="header-m">
 	<div class="first-block">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="intowrap-fist-block">
 						<div class="wrap first-block__wrap">
-						<div class="telefone-wrap">
-							<span class="telefone telefone_header">+7 (495) 790 7698</span>
+							<div class="telefone-wrap">
+								<span class="telefone telefone_header">+7 (495) 790 7698</span>
+							</div>
 						</div>
-					</div>
-					<a href="#" class="link link_header first-block__link"><i>перезвоните</i><span>перезвоните</span></a>
+						<a href="#" class="link link_header first-block__link"><i>перезвоните</i><span>перезвоните</span></a>
 					</div>
 				</div>
 			</div>
@@ -19,7 +19,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-6">
-					<img src="../img/di-logo-m.png" alt="someText" class="logo-m">
+					<img src="img/di-logo-d.png" alt="someText" class="logo-m">
 				</div>
 				<div class="col-xs-6">
 					<div class="menu-wrap second-block__menu">
@@ -74,16 +74,16 @@
 <div class="header-d">
 	<div class="first-block">
 		<div class="col-sm-2">
-			<img class="logo-td" src="../img/di-logo-t.png">
+			<img class="logo-td" src="img/di-logo-d.png">
 		</div>
 		<div class="col-sm-6">
 			<div class="address first-block__address">
-						<span class="address__info">111123 Москва, Шоссе Энтузиастов д.56 стр 47</span>
-						<div class="address__mail">
-							<span class="address__mail-title">C пометкой Конвейер</span>
-							<a href="#" class="address__mail-link">galvent@galvent.su</a>
-						</div>
-					</div>
+				<span class="address__info">111123 Москва, Шоссе Энтузиастов д.56 стр 47</span>
+				<div class="address__mail">
+					<span class="address__mail-title">C пометкой Конвейер</span>
+					<a href="#" class="address__mail-link">galvent@galvent.su</a>
+				</div>
+			</div>
 		</div>
 		<div class="col-sm-4">
 			<div class="wrap-firstblock">
@@ -107,32 +107,80 @@
 		<div class="clearfix"></div>
 		<div class="col-xs-12">
 			<div class="menu-wrap">
-						<div class="menu-button">
-							<i></i>
-							<i></i>
-							<i></i>
-							<span>Меню</span>
-						</div>
-						<nav class="menu">
-							<ul class="main-menu">
-								<li class="point-active">
-									<a href="#">О компании</a>
-								</li>
-								<li>
-									<a href="#">Продукция</a>
-								</li>
-								<li>
-									<a href="#">Производство</a>
-								</li>
-								<li>
-									<a href="#">Гарантия</a>
-								</li>
-								<li>
-									<a href="#">Контакты</a>
-								</li>
-							</ul>
-						</nav>
-					</div>
+				<div class="menu-button">
+					<i></i>
+					<i></i>
+					<i></i>
+					<span>Меню</span>
+				</div>
+				<nav class="menu">
+					<ul class="main-menu">
+						<li class="point-active">
+							<a href="#">О компании</a>
+						</li>
+						<li>
+							<a href="#">Продукция</a>
+						</li>
+						<li>
+							<a href="#">Производство</a>
+						</li>
+						<li>
+							<a href="#">Гарантия</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
 		</div>
+		<div class="clearfix"></div>
 	</div>
+</div> -->
+
+<div class="menu_xs">
+
+	<div class="menu_xs__wrap">
+
+		<div class="menu_xs__item menu_xs__item_top">
+			<span class="menu_xs__item_tel">+7 (495) 790 7698 </span> <a class="menu_xs__item_link" href="#"> перезвоните</a>
+		</div>
+
+	</div>
+
+	<div class="menu_xs__item menu_xs__item_middle">
+
+		<div class="menu_xs__item_middle_box1">
+			<img class="img-responsive" src="img/di-logo-m.png" alt="">
+		</div>
+
+		<div class="menu_xs__item_middle_box2">
+			<div class="menu-wrap">
+				<div class="menu-button">
+					<i></i>
+					<i></i>
+					<i></i>
+					<span>Меню</span>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+
+		<div class="online__mess">
+			<a href="#">Онлайн заявка</a>
+		</div>	
+		<div class="clearfix"></div>
+
+		<div class="toggle__menu">
+			<ul>
+				<li><a class="m_style" href="#">о компании</a></li>
+				<li><a class="m_style" href="#">продукция</a></li>
+				<li><a class="m_style" href="#">производство</a></li>
+				<li><a class="m_style" href="#">гарантия</a></li>
+				<li><a class="m_style" href="#">контакты</a></li>
+			</ul>
+		</div>
+
+	</div>
+
 </div>

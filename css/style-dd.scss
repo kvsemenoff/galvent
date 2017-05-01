@@ -616,3 +616,65 @@
 		display: block;
 	}
 }
+
+/* header-top
+===============================*/
+.menu_xs__wrap{
+	background:#292C2E;
+}
+.menu_xs__item_top{
+	max-width: 340px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 11px 0px;
+}
+.menu_xs__item_tel{
+	color:#fff;
+	font-family: "GothamProBold";
+	font-size: 17px;
+	display: inline-block;
+	background:url(../img/telefone_ic-mini.png) no-repeat left center;
+	padding-left: 25px;
+	margin-right: 12px;
+}
+.menu_xs__item_link{
+	display: inline-block;
+	color: #f2b600;
+	font-size: 13px;
+	text-decoration: underline;
+}
+.menu_xs__item_middle{
+	background:#F5F5F5;
+	padding: 23px 15px 11px;
+}
+.menu_xs__item_middle_box1{
+	width: 50%;
+	float: left;
+}
+.menu_xs__item_middle_box2{
+	width: 50%;
+	float: right;
+}
+.online__mess{
+	text-align: right;
+	margin-top: -34px;
+	a{
+		display: inline-block;
+		color: #dfa805;
+		font-size: 14px;
+		text-decoration: underline;
+		background:url(../img/ordergalka2.png) no-repeat left center;
+		padding-left: 20px;
+
+	}
+}
+.toggle__menu{
+	text-align: center;
+	display: none;
+}
+.m_style{
+	color: #1a3747;
+	font-size: 15px;
+	font-family: "GothamProBold";
+	text-transform: uppercase;
+}

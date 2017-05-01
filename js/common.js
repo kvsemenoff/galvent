@@ -1,24 +1,29 @@
 
 
 $(document).ready(function(){
+
+	$(".menu-button").click(function(){
+		$(".toggle__menu").slideToggle(500);
+	});
+	
 	$('.main-menu a[href^="#"]').click(function(){ 
-      var $element = $('a[name=' + $(this).attr('href').substr(1) + ']');
-      if($element.length == 1) { 
-         $('html, body').animate({ scrollTop: $element.offset().top }, 500); 
-      }     
-      return false;
-    });
+		var $element = $('a[name=' + $(this).attr('href').substr(1) + ']');
+		if($element.length == 1) { 
+			$('html, body').animate({ scrollTop: $element.offset().top }, 500); 
+		}     
+		return false;
+	});
 
 
 	$(".menu-ico").click(function(){
-        $('.main-menu').slideToggle(0);
-        
-    });
-    $(".main-menu li a").click(function(){
+		$('.main-menu').slideToggle(0);
+
+	});
+	$(".main-menu li a").click(function(){
         //$('.main-menu').slideToggle(0);
         
     });
-    
+
 	$('.js-phone').mask("+7(999)999-99-99?");
 
 	$('a[data-name=modal]').click(function(e) {
@@ -50,7 +55,7 @@ $(document).ready(function(){
 
 
 
-/*MODAL SUBMIT*/
+	/*MODAL SUBMIT*/
 	$('.js-submit').submit(function(){
 		var phone = $(this).find('input[name="phone"]');
 		
@@ -81,19 +86,19 @@ $(document).ready(function(){
 		$('a[href=#modal__thanks]').trigger('click');
 				// location = "thanks.php";
 			};
-	
 
-	
 
-	var owl2 = $(".examples__slider");
-	owl2.owlCarousel({
-		loop:false,
-		nav:true, 
-		autoplay:false,
-		smartSpeed:1000,
-		margin:0,
-		mouseDrag:false,
-		touchDrag: false,
+
+
+			var owl2 = $(".examples__slider");
+			owl2.owlCarousel({
+				loop:false,
+				nav:true, 
+				autoplay:false,
+				smartSpeed:1000,
+				margin:0,
+				mouseDrag:false,
+				touchDrag: false,
         center:false,     //если нужны обрезаные края
         navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
         responsive:{
@@ -107,66 +112,66 @@ $(document).ready(function(){
         		items:1
         	}
         }
-	});
+    });
 
-	
-	$('#reviewStars-input label').on('click', function(){
-		var x = $(this).attr('for');		
-		x = parseInt(x.match( /\d/g))+1;
-		$('.rate_block__nums i').text(x);		
-	});
 
-	
-	
-	$('.menu-button').click(function(){
-		if (!$(this).hasClass('menu-active')){
-			$(this).addClass('menu-active');
-			$('.main-menu').slideDown(300)
-		} else {
-			$(this).removeClass('menu-active');
-			$('.main-menu').slideUp(300)
-		}
-	});
-	
-	$(".fancybox").fancybox({
-		fitToView	: false,
-		closeClick	: false,
-		openEffect	: 'true',
-		closeEffect	: 'true'
-	});
+			$('#reviewStars-input label').on('click', function(){
+				var x = $(this).attr('for');		
+				x = parseInt(x.match( /\d/g))+1;
+				$('.rate_block__nums i').text(x);		
+			});
 
-	$("a[rel=group]").fancybox({
-		'transitionIn' : 'none',
-		'transitionOut' : 'none',
-		'titlePosition' : 'over',
-		'titleFormat' : function(title, currentArray, currentIndex, currentOpts) {
-			return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
-		}
-	});
 
-	$('.examples__look_more').on('click', function(){				
-		if ($(this).text() == 'скрыть') {
-			$(this).text('смотреть еще работы');
-			$('.examples__height').css('max-height', '1950px');
-		}else{
-			$(this).text('скрыть');
-			$('.examples__height').css('max-height', 'unset');
-		}
-	});
-});
+
+			$('.menu-button').click(function(){
+				if (!$(this).hasClass('menu-active')){
+					$(this).addClass('menu-active');
+					$('.main-menu').slideDown(300)
+				} else {
+					$(this).removeClass('menu-active');
+					$('.main-menu').slideUp(300)
+				}
+			});
+
+			$(".fancybox").fancybox({
+				fitToView	: false,
+				closeClick	: false,
+				openEffect	: 'true',
+				closeEffect	: 'true'
+			});
+
+			$("a[rel=group]").fancybox({
+				'transitionIn' : 'none',
+				'transitionOut' : 'none',
+				'titlePosition' : 'over',
+				'titleFormat' : function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+			$('.examples__look_more').on('click', function(){				
+				if ($(this).text() == 'скрыть') {
+					$(this).text('смотреть еще работы');
+					$('.examples__height').css('max-height', '1950px');
+				}else{
+					$(this).text('скрыть');
+					$('.examples__height').css('max-height', 'unset');
+				}
+			});
+		});
 
 
 
 $(function() {
-    $(window).scroll(function() {
-        if($(this).scrollTop() != 0) {
-            $('#toTop').fadeIn();
-        } else {
-            $('#toTop').fadeOut();
-        }
-    });
-    $('#toTop').click(function() {
-        $('body,html').animate({scrollTop:0},800);
-    });
+	$(window).scroll(function() {
+		if($(this).scrollTop() != 0) {
+			$('#toTop').fadeIn();
+		} else {
+			$('#toTop').fadeOut();
+		}
+	});
+	$('#toTop').click(function() {
+		$('body,html').animate({scrollTop:0},800);
+	});
 });
 
