@@ -122,7 +122,7 @@
 <div class="modal modal__form" id="modal__form_order">
 	<div class="form_for_popup">
 		<h4 class="form_popup__caption">Онлайн заявка</h4>
-		<form action="#" method="post" class="form1">	
+		<form action="#" method="post" class="js-submit">	
 				<label for="uname" class="for_input">Ваше ФИО:<i>*</i></label>
 				<span class="input input_theme_popup"><input type="text" class="input__control" id="uname" name="uname" placeholder="Василий" required></span> 	
 				<label for="phone" class="for_input">Телефон:<i>*</i></label>
@@ -141,7 +141,7 @@
 <div class="modal modal__form" id="modal__form_call">
 	<div class="form_for_popup">
 		<h4 class="form_popup__caption">заказать обратный звонок</h4>
-		<form action="#" method="post" class="form1">	
+		<form action="#" method="post" class="js-submit">	
 			<label for="uname" class="for_input">Ваше ФИО:<i>*</i></label>
 			<span class="input input_theme_popup"><input type="text" class="input__control" id="uname" name="uname" placeholder="Василий" required></span> 	
 			<label for="phone" class="for_input">Телефон:<i>*</i></label>
