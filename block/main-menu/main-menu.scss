@@ -58,15 +58,16 @@
 				color: #1a3747;
 				font-size: 15px;
 				text-transform: uppercase;
-				margin: 0 22px;
-				padding: 24px 0;
+				margin: 0 19px;
+				padding: 17px 0;
 				border-bottom: 4px solid transparent;
-				@media only screen and (max-width : 1200px) {
+				@media only screen and (min-width : 1200px) {
 					font-size: 14px;
+					margin: 0 29px;
+					padding: 26px 0;
 				}
 				@media only screen and (max-width : 1000px) {
 					padding: 10px 0;
-					// border: none;
 				}
 			}
 		}

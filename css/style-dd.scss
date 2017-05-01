@@ -646,6 +646,9 @@
 	@media only screen and (min-width : 992px) {
 		font-size: 23px;
 	}
+	@media only screen and (min-width : 1240px) {
+		margin-top: 30px;
+	}
 }
 .menu_xs__item_link{
 	display: inline-block;
@@ -717,6 +720,7 @@
 }
 .menu_md{
 	display: none;
+	padding-top: 10px;
 	@media only screen and (min-width : 1240px) {
 		display: block;
 	}
@@ -726,11 +730,25 @@
 }
 .menu_md__right{
 	float: right;
+	.address{
+		margin-left: 237px;
+		padding-top: 19px;
+	}
 }
 .menu_md__right_item{
-	display: inline-block;
 	float: left;
 }
 .menu_md__right_item2{
-		float: right;
+	float: right;
+}
+@media only screen and (min-width : 1240px) {
+	.search{
+		width: 140px;
+		position: relative;
+		.search-wrap{
+			position: absolute;
+			width: 140px;
+			top: -29px;
+		}
+	}
 }
