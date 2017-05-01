@@ -138,7 +138,7 @@
 	</div>
 </div> -->
 
-<div class="menu_xs">
+<!-- <div class="menu_xs">
 
 	<div class="menu_xs__wrap">
 
@@ -181,6 +181,61 @@
 			</ul>
 		</div>
 
+	</div>
+
+	<div class="menu_xs__item menu_xs__item_bottom">
+		<div class="address">
+			<span class="address__info">111123 Москва, Шоссе Энтузиастов д.56 стр 47</span>
+			<div class="address__mail">
+				<span class="address__mail-title">C пометкой Конвейер</span>
+				<a href="#" class="address__mail-link">galvent@galvent.su</a>
+			</div>
+		</div>
+	</div>
+
+</div> -->
+
+<div class="menu_sm">
+	
+	<div class="container">
+		<div class="row">
+
+			<div class="col-xs-4 col-sm-4 col-md-4">
+				<div class="menu_sm__item">
+					<img src="img/di-logo-t.png" alt="">
+				</div>	
+			</div>
+
+			<div class="col-xs-4 col-sm-4 col-md-4">
+
+				<div class="menu_sm__item">
+					<div class="address">
+						<span class="address__info">111123 Москва, Шоссе Энтузиастов д.56 стр 47</span>
+						<div class="address__mail">
+							<span class="address__mail-title">C пометкой Конвейер</span>
+							<a href="#" class="address__mail-link">galvent@galvent.su</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="col-xs-4 col-sm-4 col-md-4">
+				<div class="menu_sm__item">
+					<span class="menu_xs__item_tel">+7 (495) 790 7698 </span> <a class="menu_xs__item_link" href="#">заказать обратный звонок</a>
+				</div>
+				<div class="search">
+					<form action="#">
+						<div class="search-wrap">
+							<input type="text" placeholder="Поиск">
+							<input type="submit">
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+
+		</div>
 	</div>
 
 </div>

@@ -21,6 +21,7 @@
 	<link rel="stylesheet" href="block/link/link.css">
 	<link rel="stylesheet" href="block/telefone/telefone.css">
 	<link rel="stylesheet" href="block/address/address.css">
+	<link rel="stylesheet" href="block/search/search.css">
 	<link rel="stylesheet" href="block/button/style.css">
 	<link rel="stylesheet" href="block/inputtext/style.css">
 	<link rel="stylesheet" href="block/order/style.css">
@@ -46,22 +47,22 @@
 	
 	<script src="https://api-maps.yandex.ru/2.1/?lang=tr_TR" type="text/javascript"></script>
 	<script type="text/javascript">
-	    ymaps.ready(init);
-	    var myMap, 
-	        myPlacemark;
+		ymaps.ready(init);
+		var myMap, 
+		myPlacemark;
 
-	    function init(){ 
-	        myMap = new ymaps.Map("map", {
-	            center: [55.75430171942093,37.762623379623356],
-	            zoom: 16,
-	            controls: []
-	        },
-	        {suppressMapOpenBlock: true}); 
-	        
-	        myPlacemark = new ymaps.Placemark([55.75430171942093,37.762623379623356], {
-	            hintContent: '',
-	            balloonContent: ''
-	        }, {
+		function init(){ 
+			myMap = new ymaps.Map("map", {
+				center: [55.75430171942093,37.762623379623356],
+				zoom: 16,
+				controls: []
+			},
+			{suppressMapOpenBlock: true}); 
+			
+			myPlacemark = new ymaps.Placemark([55.75430171942093,37.762623379623356], {
+				hintContent: '',
+				balloonContent: ''
+			}, {
 	          // Опции.
 	          // Необходимо указать данный тип макета.
 	          iconLayout: 'default#image',
@@ -73,10 +74,10 @@
 	          // её "ножки" (точки привязки).
 	          iconImageOffset: [-5, -38]
 	      }
-	        );
-	        myMap.behaviors.disable('scrollZoom');
-	        myMap.geoObjects.add(myPlacemark);
-	    }
+	      );
+			myMap.behaviors.disable('scrollZoom');
+			myMap.geoObjects.add(myPlacemark);
+		}
 	</script>
 	
 	
