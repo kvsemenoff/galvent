@@ -138,7 +138,7 @@
 	</div>
 </div> -->
 
-<!-- <div class="menu_xs">
+<div class="menu_xs">
 
 	<div class="menu_xs__wrap">
 
@@ -193,20 +193,20 @@
 		</div>
 	</div>
 
-</div> -->
+</div>
 
 <div class="menu_sm">
 	
 	<div class="container">
 		<div class="row">
 
-			<div class="col-xs-4 col-sm-4 col-md-4">
+			<div class="col-xs-3 col-sm-3 col-md-3">
 				<div class="menu_sm__item">
 					<img src="img/di-logo-t.png" alt="">
 				</div>	
 			</div>
 
-			<div class="col-xs-4 col-sm-4 col-md-4">
+			<div class="col-xs-5 col-sm-5 col-md-5">
 
 				<div class="menu_sm__item">
 					<div class="address">
@@ -221,7 +221,7 @@
 			</div>
 
 			<div class="col-xs-4 col-sm-4 col-md-4">
-				<div class="menu_sm__item">
+				<div class="menu_sm__item menu_sm__item_tel">
 					<span class="menu_xs__item_tel">+7 (495) 790 7698 </span> <a class="menu_xs__item_link" href="#">заказать обратный звонок</a>
 				</div>
 				<div class="search">
@@ -235,7 +235,35 @@
 			</div>
 			<div class="clearfix"></div>
 
+			<div class="menu-wrap">
+				<nav class="menu">
+					<ul class="main-menu">
+						<li class="point-active">
+							<a href="#">О компании</a>
+						</li>
+						<li>
+							<a href="#">Продукция</a>
+						</li>
+						<li>
+							<a href="#">Производство</a>
+						</li>
+						<li>
+							<a href="#">Гарантия</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
 		</div>
 	</div>
+
+</div>
+
+<div class="menu_md">
+	
+	
 
 </div>

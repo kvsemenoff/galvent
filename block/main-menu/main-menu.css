@@ -36,23 +36,17 @@
   .menu-wrap .main-menu {
     background: #fff;
     font-family: "GothamProBold", arial, sans-serif; }
-    @media only screen and (max-width: 1000px) {
-      .menu-wrap .main-menu {
-        display: none; } }
     .menu-wrap .main-menu li {
       display: inline-block;
       list-style: none;
       padding: 0; }
-      @media only screen and (max-width: 1000px) {
-        .menu-wrap .main-menu li {
-          display: block; } }
       .menu-wrap .main-menu li a {
         text-decoration: none;
         display: block;
         color: #1a3747;
         font-size: 15px;
         text-transform: uppercase;
-        margin: 0 27px;
+        margin: 0 22px;
         padding: 24px 0;
         border-bottom: 4px solid transparent; }
         @media only screen and (max-width: 1200px) {
@@ -60,8 +54,7 @@
             font-size: 14px; } }
         @media only screen and (max-width: 1000px) {
           .menu-wrap .main-menu li a {
-            padding: 10px 0;
-            border: none; } }
+            padding: 10px 0; } }
     .menu-wrap .main-menu .point-active a {
       border-color: #f2b600; }
 

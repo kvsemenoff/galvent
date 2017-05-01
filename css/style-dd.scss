@@ -636,12 +636,25 @@
 	background:url(../img/telefone_ic-mini.png) no-repeat left center;
 	padding-left: 25px;
 	margin-right: 12px;
+	@media only screen and (min-width : 768px) {
+		color:#2F4B5B;
+		font-size: 19px;
+		background:url(../img/telefone_ic.png) no-repeat left center;
+		padding-left: 35px;
+		margin-right: 0;
+	}
+	@media only screen and (min-width : 992px) {
+		font-size: 23px;
+	}
 }
 .menu_xs__item_link{
 	display: inline-block;
 	color: #f2b600;
 	font-size: 13px;
 	text-decoration: underline;
+	@media only screen and (min-width : 768px) {
+		padding: 5px 0px 10px;
+	}
 }
 .menu_xs__item_middle{
 	background:#F5F5F5;
@@ -682,5 +695,29 @@
 	padding: 15px 0px;
 	.address{
 		text-align: center;
+	}
+}
+.menu_sm__item_tel{
+	text-align: right;
+}
+.menu_sm{
+	padding-top: 20px;
+	display: none;
+	@media only screen and (min-width : 768px) {
+		display: block;
+	}
+	@media only screen and (min-width : 992px) {
+		display: none;
+	}
+}
+.menu_xs{
+	@media only screen and (min-width : 768px) {
+		display: none;
+	}
+}
+.menu_md{
+	display: none;
+	@media only screen and (min-width : 992px) {
+		display: block;
 	}
 }
