@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* ╨Э╨░╨┐╤А╨░╨▓╨╗╨╡╨╜╨╕╤П */
+/* Направления */
 .my_circle {
   position: absolute;
   right: 175px;
@@ -25,7 +25,8 @@
 
 .direction_item {
   padding: 200px 0 20px 0;
-  border-radius: 10px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
   height: 260px;
   max-width: 330px;
   margin: auto; }
@@ -150,6 +151,7 @@
 
 .clients_content .col-md-4 {
   padding: 0; }
+
 @media screen and (min-width: 992px) {
   .clients_content .container {
     padding: 0; } }
@@ -159,7 +161,7 @@
   margin-top: 20px;
   text-align: center; }
 
-/* ╨а╨╛╨╗╨╕╨║╨╕ */
+/* Ролики */
 .rolik_content {
   position: relative; }
 
@@ -236,7 +238,7 @@
 .rolik_wrap {
   margin-bottom: 40px; }
 
-/* ╨Ы╨╡╨╜╤В╨╛╤З╨╜╤Л╨╣ ╨║╨╛╨╜╨▓╨╡╨╣╨╡╤А */
+/* Ленточный конвейер */
 .conv_content {
   padding: 30px 0 40px 0;
   position: relative; }
@@ -297,7 +299,8 @@
 .conv_list {
   max-width: 365px;
   background: #eeeeef;
-  border-radius: 10px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   margin: auto; }
@@ -357,5 +360,3 @@
 
 .conv_m_h3 {
   margin-top: 40px; }
-
-/*# sourceMappingURL=style-dg.css.map */
