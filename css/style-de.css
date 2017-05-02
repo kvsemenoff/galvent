@@ -43,7 +43,7 @@
 @media only screen and (max-width: 1200px) { .product .item__title { text-decoration: underline; border: 0; line-height: 25px; font-size: 19px; } }
 @media only screen and (max-width: 1000px) { .product .item__title { top: 25px; left: 40px; right: auto; bottom: auto; } }
 
-.equipment { background: url(../img/equipment-bg.jpg) 0 0/cover; }
+.equipment { background: url(../img/equipment-bg.jpg) 0 0/cover no-repeat; }
 @media only screen and (max-width: 700px) { .equipment { padding: 18px 0 30px; }
   .equipment__button { text-align: center; } }
 .equipment__descr { font-size: 23px; color: #fff; display: block; padding: 15px 0 30px; line-height: 20px; }
