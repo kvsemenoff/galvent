@@ -1,8 +1,3 @@
-//файлы css-файлов
-
-
-	
-
 
 var css_our = new Array(
 	'css/reset.css',
@@ -14,6 +9,7 @@ var css_our = new Array(
 	'block/link/link.css',
 	'block/telefone/telefone.css',
 	'block/address/address.css',
+	'block/search/search.css',
 	'block/button/style.css',
 	'block/inputtext/style.css',
 	'block/order/style.css',
@@ -46,6 +42,7 @@ var scss_our = new Array(
 	'block/link/link.scss',
 	'block/telefone/telefone.scss',
 	'block/address/address.scss',
+	'block/search/search.scss',
 	'block/button/style.scss',
 	'block/inputtext/style.scss',
 	'block/order/style.scss',
