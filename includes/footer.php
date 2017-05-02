@@ -58,7 +58,7 @@
 				<div class="address address__footer address_padding">
 					<span class="address__info">111123 Москва, Шоссе Энтузиастов д.56 стр 47</span>
 					<div class="address__mail">
-						<span class="address__mail-title">C пометкой Конвейер</span>
+						<span class="address__mail-title address_footer">C пометкой Конвейер</span>
 						<a href="#" class="address__mail-link">galvent@galvent.su</a>
 					</div>
 				</div>	

@@ -176,8 +176,10 @@
 		position: absolute;
 		color: #fff;
 		font-size: 22px;
-		text-decoration: underline;
 		z-index: 1000;
+		text-decoration: none;
+		border-bottom: 1px solid #fff;
+		line-height: 1;
 		&::before{
 			content: "";
 			position: absolute;
@@ -201,6 +203,9 @@
 			left: 60px;
 		}
 		@media only screen and (max-width : 1200px) {
+			text-decoration: underline;
+			border: 0;
+			line-height: 25px;
 			font-size: 19px;
 		}
 		@media only screen and (max-width : 1000px) {
@@ -212,11 +217,7 @@
 	}
 }
 .equipment{
-	padding: 125px 0 130px;
 	background: url(../img/equipment-bg.jpg) 0 0/cover;
-	@media only screen and (max-width : 1000px) {
-		padding: 75px 0 125px;
-	}
 	@media only screen and (max-width : 700px) {
 		padding: 18px 0 30px;
 		&__button{
@@ -235,6 +236,21 @@
 		@media only screen and (max-width : 700px) {
 			font-size: 16px;
 			text-align: center;
+		}
+	}
+	.container{
+		position: relative;
+		padding: 125px 15px 130px;
+		@media only screen and (max-width : 1000px) {
+			padding: 75px 15px 125px;
+		}
+	}
+	&_order{
+		position: absolute;
+		right: 0;
+		bottom: -35px;
+		@media only screen and (max-width : 700px) {
+			display: none;
 		}
 	}
 }
