@@ -43,13 +43,16 @@
 @media only screen and (max-width: 1200px) { .product .item__title { font-size: 19px; } }
 @media only screen and (max-width: 1000px) { .product .item__title { top: 25px; left: 40px; right: auto; bottom: auto; } }
 
-.equipment { padding: 125px 0 130px; background: url(../img/equipment-bg.jpg) 0 0/cover; }
-@media only screen and (max-width: 1000px) { .equipment { padding: 75px 0 125px; } }
+.equipment { background: url(../img/equipment-bg.jpg) 0 0/cover; }
 @media only screen and (max-width: 700px) { .equipment { padding: 18px 0 30px; }
   .equipment__button { text-align: center; } }
 .equipment__descr { font-size: 23px; color: #fff; display: block; padding: 15px 0 30px; line-height: 20px; }
 @media only screen and (max-width: 1000px) { .equipment__descr { font-size: 19px; } }
 @media only screen and (max-width: 700px) { .equipment__descr { font-size: 16px; text-align: center; } }
+.equipment .container { position: relative; padding: 125px 15px 130px; }
+@media only screen and (max-width: 1000px) { .equipment .container { padding: 75px 15px 125px; } }
+.equipment_order { position: absolute; right: 0; bottom: -35px; }
+@media only screen and (max-width: 700px) { .equipment_order { display: none; } }
 
 .fast { padding: 47px 0 45px; }
 @media only screen and (max-width: 991px) { .fast { padding: 20px 0; } }
