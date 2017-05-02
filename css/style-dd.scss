@@ -654,9 +654,16 @@
 	display: inline-block;
 	color: #f2b600;
 	font-size: 13px;
-	text-decoration: underline;
+	// text-decoration: underline;
+	border-bottom: 1px solid rgba(#f2b600 , 0.4);
+	letter-spacing: 0.55px;
+	line-height: 20px;
+	&:hover{
+		border-bottom-color: transparent;
+	}
 	@media only screen and (min-width : 768px) {
-		padding: 5px 0px 10px;
+		padding: 5px 0px 0px;
+		margin-bottom: 10px;
 	}
 }
 .menu_xs__item_middle{
