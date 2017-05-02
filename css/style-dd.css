@@ -617,7 +617,9 @@
 
 .menu_md {
   display: none;
-  padding-top: 10px; }
+  padding-top: 10px;
+  background: -webkit-linear-gradient(top, #f7f7f7, #f2f2f2);
+  background: linear-gradient(to bottom, #f7f7f7, #f2f2f2); }
   @media only screen and (min-width: 1240px) {
     .menu_md {
       display: block; } }
