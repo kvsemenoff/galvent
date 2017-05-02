@@ -59,6 +59,11 @@
 		@media only screen and (max-width : 1000px) and (min-width : 700px) {
 			height: 260px;
 		}
+		&:hover{
+			.item__title{
+				text-decoration: none;
+			}
+		}
 	}
 	&__item{
 		padding: 15px 15px 15px 0;
@@ -196,7 +201,7 @@
 			left: 60px;
 		}
 		@media only screen and (max-width : 1200px) {
-			font-size: 20px;
+			font-size: 19px;
 		}
 		@media only screen and (max-width : 1000px) {
 			top: 25px;
