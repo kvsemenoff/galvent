@@ -168,11 +168,10 @@
   padding-top: 62px; }
   .last__wrap .h2 {
     margin-bottom: 49px;
-    display: inline-block;
-    text-decoration: none;
-    border-bottom: 1px solid #8FA4BF; }
+    display: inline-block; }
     .last__wrap .h2 a {
-      color: #395E8E !important; }
+      color: #395E8E !important;
+      text-decoration: none; }
   .last__wrap .h2:hover {
     border-bottom: 1px solid #fff; }
 
