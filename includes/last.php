@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-5">
-				<h2 class="h2 h2_light">Последние новости</h2>
+				<h2 class="h2 h2_light"><a href="#">Последние новости</a></h2>
 				<div class="news-box news-box__view">
 					<span>28.03.17</span>
 					<div class="news-box__link">
