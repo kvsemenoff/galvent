@@ -54,6 +54,9 @@
   .input__control:-ms-input-placeholder {
     color: #b0b0b0; }
 
+.input__control:focus, .input__control:active, .message_theme_rosa:focus, .message_theme_rosa:active {
+  color: #3c3c3c; }
+
 .form_for_main_page {
   max-width: 685px;
   background-color: #eff3f4;

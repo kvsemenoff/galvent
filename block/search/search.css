@@ -36,4 +36,7 @@
     display: block;
     background: url(/img/search-ic.png) center no-repeat; }
 
+.search-wrap input[type="text"]:focus, .search-wrap input[type="text"]:active {
+  color: #3c3c3c; }
+
 /*# sourceMappingURL=search.css.map */
