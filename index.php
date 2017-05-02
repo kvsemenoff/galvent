@@ -5,8 +5,8 @@
 <?php require_once('includes/product.php'); ?>
 <?php require_once('includes/about.php'); ?>
 <?php require_once('includes/last.php'); ?>
-<?php require_once('includes/fast.php'); ?>
 <?php require_once('includes/extra.php'); ?>
+<?php require_once('includes/fast.php'); ?>
 <?php require_once('includes/footer.php'); ?>
 
 </body>
