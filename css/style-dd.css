@@ -589,7 +589,9 @@
 
 .menu_sm {
   padding-top: 20px;
-  display: none; }
+  display: none;
+  background: -webkit-linear-gradient(top, #f7f7f7, #f2f2f2);
+  background: linear-gradient(to bottom, #f7f7f7, #f2f2f2); }
   @media only screen and (min-width: 768px) {
     .menu_sm {
       display: block; } }
