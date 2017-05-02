@@ -106,6 +106,25 @@ body, html{
 	}
 }
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	
+	.telefone_padding{
+		padding-left:38px !important;
+	}
+	@media only screen and (min-width : 992px) {
+		.footer-social_center{
+			width:auto !important;
+		}
+		.footer-bottom__copyright{
+			margin-top: auto !important;
+			padding-top:5px !important;
+		}
+		.footer-menu_view{
+			width:auto !important;
+			padding-top: 0 !important;
+		}
+	}
+}
 
 .address {
 	font-family: "GothamProRegular", arial, sans-serif ;
@@ -149,8 +168,8 @@ body, html{
 	}
 	@media only screen and (max-width : 700px) {
 		&_footer{
-		color: #ed6f6f !important;
-	}
+			color: #ed6f6f !important;
+		}
 		width: 200px;
 		&__info{
 			font-size: 14px;
