@@ -190,16 +190,10 @@
 	padding-top: 62px;
 	.h2{
 		// padding-bottom: 49px;
+		color:#395E8E !important;
 		margin-bottom: 49px;
 		display: inline-block;
-		a{
-			color:#395E8E !important;
-			text-decoration: none;
-		}
-		// border-bottom: 1px solid #8FA4BF;
-	}
-	.h2:hover{
-		border-bottom: 1px solid #fff;
+		border-bottom: 1px solid #8FA4BF;
 	}
 }
 .news-box__view{
@@ -700,6 +694,7 @@
 		color: #dfa805;
 		font-size: 14px;
 		text-decoration: underline;
+		// border-bottom: 1px solid #EDDFB7;
 		background:url(../img/ordergalka2.png) no-repeat left center;
 		padding-left: 20px;
 
@@ -717,8 +712,15 @@
 }
 .menu_xs__item_bottom{
 	padding: 15px 0px;
+	background:#fff;
 	.address{
 		text-align: center;
+	}
+	.address__mail-link{
+		border-bottom: 1px solid #D4E2EA;
+		display: inline-block !important;
+		padding: 0 !important;
+		margin-left: 27px;
 	}
 }
 .menu_sm__item_tel{

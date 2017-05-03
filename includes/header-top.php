@@ -143,7 +143,7 @@
 	<div class="menu_xs__wrap">
 
 		<div class="menu_xs__item menu_xs__item_top">
-			<span class="menu_xs__item_tel">+7 (495) 790 7698 </span> <a class="menu_xs__item_link" href="#"> перезвоните</a>
+			<span class="menu_xs__item_tel">+7 (495) 790 7698 </span> <a class="menu_xs__item_link fancybox" href="#modal__form_call"> перезвоните</a>
 		</div>
 
 	</div>

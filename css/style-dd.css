@@ -167,13 +167,10 @@
   background: #fff;
   padding-top: 62px; }
   .last__wrap .h2 {
+    color: #395E8E !important;
     margin-bottom: 49px;
-    display: inline-block; }
-    .last__wrap .h2 a {
-      color: #395E8E !important;
-      text-decoration: none; }
-  .last__wrap .h2:hover {
-    border-bottom: 1px solid #fff; }
+    display: inline-block;
+    border-bottom: 1px solid #8FA4BF; }
 
 .news-box__view {
   background: #eff3f4;
@@ -592,9 +589,15 @@
   text-transform: uppercase; }
 
 .menu_xs__item_bottom {
-  padding: 15px 0px; }
+  padding: 15px 0px;
+  background: #fff; }
   .menu_xs__item_bottom .address {
     text-align: center; }
+  .menu_xs__item_bottom .address__mail-link {
+    border-bottom: 1px solid #D4E2EA;
+    display: inline-block !important;
+    padding: 0 !important;
+    margin-left: 27px; }
 
 .menu_sm__item_tel {
   text-align: right; }
