@@ -105,6 +105,7 @@
 								<img class="gif_6" src="img/gif1.gif" alt="">
 							</div>
 						</div>
+						
 					</div>
 
 				</div>
