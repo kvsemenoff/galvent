@@ -5,7 +5,12 @@ body, html{
 	display: inline-block;
 	text-decoration: none;
 	&_float{
-		float:right;
+		margin-left: 50px;
+		@media only screen and (min-width : 992px) {
+			float:right;
+			margin-left: unset;
+		}
+		
 		span{
 			border-bottom: 1px solid rgba(#f2b600, 0.19) !important;
 			&:hover{
@@ -171,17 +176,20 @@ body, html{
 			color: #ed6f6f !important;
 		}
 		width: 200px;
+		.address__left{
+			text-align: left !important;
+		}
 		&__info{
 			font-size: 14px;
-			text-align: center;
+			text-align: left !important;
 			padding: 0 0 10px 25px;
 		}
 		&__mail-title{
 			font-size: 13px;
-			text-align: center;
+			text-align: left !important;
 		}
 		&__mail-link{
-			text-align: center;
+			text-align: left !important;
 		}
 	}
 }
@@ -232,7 +240,7 @@ body, html{
 	}
 }
 .footer-bottom__copyright{
-	font-size: 13px;
+	font-size: 11px;
 	text-align: center;
 	margin-top: -85px;
 	padding-top: 30px;
@@ -247,7 +255,10 @@ body, html{
 }
 .footer-bottom__site{
 	a{
-		font-size: 13px;
+		font-size: 12px;
+		@media only screen and (min-width : 992px) {
+			font-size: 13px;
+		}
 		font-weight: 400;
 		line-height: 28px;
 		
@@ -259,7 +270,7 @@ body, html{
 	background: #34393b;
 }
 .footer-top_padding{
-	padding: 20px 10px;
+	padding: 20px 0px;
 	padding-bottom: 60px;
 	@media only screen and (min-width : 992px) {
 		padding-bottom: 20px;
@@ -283,9 +294,9 @@ body, html{
 		}
 	}
 	&_view{
-		padding-top: 20px;
+		padding-top: 8px;
 		padding-bottom: 20px;
-		width: 75px;
+		width: 122px;
 		margin: 0 auto;
 		@media only screen and (min-width : 720px) {
 			padding-top: 10px;
