@@ -1,6 +1,6 @@
 .services__wrap{
 	width: 100%;
-	background:url(../img/b1.jpg) no-repeat top center;
+	background: transparent url(../img/b1.jpg) no-repeat top center;
 	background-size:cover;
 	padding: 48px 0px 46px; 
 }
@@ -41,9 +41,18 @@
 }
 .about__wrap{
 	width: 100%;
-	background:url(../img/bg2.jpg) no-repeat top center;
+	// background:url(../img/bg2.jpg) no-repeat top center;
+	background:url(../img/bgg1.jpg) no-repeat top center;
 	background-size:cover;
 	padding-bottom: 34px;
+	@media only screen and (min-width : 768px) {
+		background:url(../img/bgg3.jpg) no-repeat top center;
+		background-size:cover;
+	}
+	@media only screen and (min-width : 768px) {
+		background:url(../img/bg2.jpg) no-repeat top center;
+		background-size:cover;
+	}
 	.h2{
 		padding: 27px 0px 54px;
 	}
@@ -187,13 +196,17 @@
 }
 .last__wrap{
 	background:#fff;
-	padding-top: 62px;
+	padding-top: 53px;
 	.h2{
 		// padding-bottom: 49px;
 		color:#395E8E !important;
 		margin-bottom: 49px;
 		display: inline-block;
 		border-bottom: 1px solid #8FA4BF;
+		font-size: 25px;
+		@media only screen and (min-width : 768px) {
+			font-size: 30px;
+		}
 	}
 }
 .news-box__view{
