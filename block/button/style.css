@@ -26,12 +26,13 @@
     padding-left: 0;
     text-align: center;
     height: unset;
-    padding: 15px 0px;
-    line-height: 0;
+    line-height: 26px;
+    display: inline-block;
     -webkit-transition: 0.001s;
     -moz-transition: 0.001s;
     -o-transition: 0.001s;
-    transition: 0.001s; }
+    transition: 0.001s;
+    height: 29px; }
     .button__view_txt2:hover {
       background: #006887; }
   .button__view_txt3 {
