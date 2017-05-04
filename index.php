@@ -1,6 +1,6 @@
 
 <?php require_once('includes/header.php'); ?>
-<?php require_once('includes/header-top.php'); ?>
+<?php require_once('includes/header-top-main.php'); ?>
 <?php require_once('includes/equipment.php'); ?>
 <?php require_once('includes/product.php'); ?>
 <?php require_once('includes/about.php'); ?>
