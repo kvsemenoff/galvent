@@ -135,4 +135,10 @@
     .bread_menu__link_bg {
       font-size: 16px; } }
 
+.bread_menu__link:first-child {
+  padding-bottom: 4px; }
+  @media only screen and (min-width: 480px) {
+    .bread_menu__link:first-child {
+      padding-bottom: 0px; } }
+
 /*# sourceMappingURL=style.css.map */

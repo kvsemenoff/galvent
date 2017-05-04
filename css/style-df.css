@@ -3,7 +3,7 @@
 
 .conveyors_page_circle {
   position: absolute;
-  top: 8px;
+  top: -10px;
   right: 32px;
   z-index: 99; }
 
@@ -57,8 +57,7 @@
 .conveyors__list {
   padding: 20px 15px;
   background-color: #eeeeef;
-  -webkit-border-radius: 8px;
-          border-radius: 8px;
+  border-radius: 8px;
   margin: 25px 0 30px 0; }
   @media only screen and (min-width: 780px) {
     .conveyors__list {
@@ -133,8 +132,7 @@
 
 .conveyors__submit {
   background-color: #f2b600;
-  -webkit-border-radius: 28px;
-          border-radius: 28px;
+  border-radius: 28px;
   position: relative;
   display: inline-block;
   padding: 12px 25px 15px 60px;
@@ -145,8 +143,7 @@
     position: absolute;
     width: 50px;
     height: 100%;
-    -webkit-border-radius: 28px 0 0 28px;
-            border-radius: 28px 0 0 28px;
+    border-radius: 28px 0 0 28px;
     top: 0;
     left: 0;
     background: #EEA200 url("../img/ic2.png") no-repeat left 16px center; }
@@ -211,8 +208,7 @@
     width: 62px;
     height: 62px;
     background-color: #f2b600;
-    -webkit-border-radius: 8px;
-            border-radius: 8px;
+    border-radius: 8px;
     background-image: url("../img/zoom.png");
     background-repeat: no-repeat;
     background-position: center center; }
@@ -243,8 +239,7 @@
   display: inline-block;
   width: 55px;
   height: 55px;
-  -webkit-border-radius: 8px;
-          border-radius: 8px; }
+  border-radius: 8px; }
   .df-left:hover, .df-right:hover {
     background-color: #ffcd72; }
 
@@ -254,8 +249,7 @@
 
 .examples__look_more {
   background-color: #f2b600;
-  -webkit-border-radius: 28px;
-          border-radius: 28px;
+  border-radius: 28px;
   position: relative;
   display: inline-block;
   padding: 12px 25px 15px 60px;
@@ -270,8 +264,7 @@
     position: absolute;
     width: 50px;
     height: 100%;
-    -webkit-border-radius: 28px 0 0 28px;
-            border-radius: 28px 0 0 28px;
+    border-radius: 28px 0 0 28px;
     top: 0;
     left: 0;
     background: #EEA200 url("../img/lookmore.png") no-repeat left 16px center; }
@@ -373,12 +366,10 @@
 
 .ourindustry__link {
   border: 5px solid rgba(0, 0, 0, 0.1);
-  -webkit-border-radius: 8px;
-          border-radius: 8px;
+  border-radius: 8px;
   overflow: hidden;
   display: inline-block;
   height: 265px;
-  -webkit-transition: 0.4s;
   transition: 0.4s;
   position: relative; }
   .ourindustry__link img {
@@ -407,9 +398,9 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     width: 33px;
     height: 33px;
     background: url("../img/zoom.png") no-repeat center center; }
+
+/*# sourceMappingURL=style-df.css.map */
