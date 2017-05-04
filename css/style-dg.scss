@@ -1,8 +1,7 @@
 /* Направления */
 .my_circle {
   position: absolute;
-  right: 175px;
-  top: -60px;
+  top: -12px;
 }
 .direction_content {
   position: relative;
@@ -62,7 +61,7 @@
     max-width: 370px;
     margin: auto;
     margin-right: 30px;
-  } 
+  }
 }
 .direction_item__p {
   color: white;
@@ -398,4 +397,10 @@
 }
 .conv_m_h3 {
   margin-top: 40px;
+}
+.conv_block__imgblock {
+  max-width: 450px;
+  @media screen and (min-width: 1200px) {
+    max-width: unset;
+  }
 }
