@@ -98,7 +98,7 @@
 			}
 		}
 	}
-	.item__img{
+	.item__image{
 		overflow: hidden;
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#edf0f5+0,dbe0ea+100 */
 		background: #edf0f5; /* Old browsers */
@@ -111,8 +111,7 @@
 		height: 320px;
 		position: absolute;
 		z-index: 300;
-		img{
-			display: block;
+		.item__img{
 			z-index: 305;
 	    top: 30%;
   	  left: 34%;
@@ -133,10 +132,13 @@
 		@media only screen and (min-width : 1000px) {
 			left: -95px;
 			top: -50px;
+			.item__img-mob{
+				display: none;
+			}
 			&_second{
 				left: auto;
 				right: -130px;
-				img{
+				.item__img{
 		      top: 29%;
 	      	left: 12%;
 				}
@@ -148,7 +150,7 @@
 				bottom: -297px;
 				width: 646px;
 				height: 646px;
-				img{
+				.item__img{
 			    top: 17%;
    				left: 9%;
 				}
@@ -158,13 +160,25 @@
 			left: 50%;
 			margin-left: -160px;
 			bottom: -185px;
-			img{
+			.item__img{
 				position: relative;
 				top: auto;
 				left: auto;
 				margin: 15px auto 0;
 				width: 145px;
 				height: 120px;
+			}
+			.item__img-des{
+				display: none;
+			}
+			.item__img-mob{
+				display: block;
+			}
+			&_second{
+				.item__img{
+          top: -25px;
+				  left: 15px;
+				}
 			}
 		}
 	}

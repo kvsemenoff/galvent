@@ -24,17 +24,21 @@
 @media only screen and (max-width: 700px) { .product__item { width: 100%; max-width: 295px; margin: 0 auto; float: none; padding: 15px 0 !important; } }
 .product__item_big { padding: 15px 0 0 15px; }
 @media only screen and (min-width: 1000px) { .product__item_big .item__inner { height: 480px; } }
-.product .item__img { overflow: hidden; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#edf0f5+0,dbe0ea+100 */ background: #edf0f5; /* Old browsers */ background: -moz-linear-gradient(top, #edf0f5 0%, #dbe0ea 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(top, #edf0f5 0%, #dbe0ea 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(to bottom, #edf0f5 0%, #dbe0ea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf0f5', endColorstr='#dbe0ea',GradientType=0 ); /* IE6-9 */ border-radius: 50%; width: 320px; height: 320px; position: absolute; z-index: 300; }
-.product .item__img img { display: block; z-index: 305; top: 30%; left: 34%; position: absolute; }
-.product .item__img_second img { top: 29%; left: 12%; }
-.product .item__img_third img { top: 17%; left: 9%; }
-@media only screen and (min-width: 1000px) { .product .item__img { left: -95px; top: -50px; }
-  .product .item__img_second { left: auto; right: -130px; }
-  .product .item__img_second img { top: 29%; left: 12%; }
-  .product .item__img_third { left: auto; right: -297px; top: auto; bottom: -297px; width: 646px; height: 646px; }
-  .product .item__img_third img { top: 17%; left: 9%; } }
-@media only screen and (max-width: 1000px) { .product .item__img { left: 50%; margin-left: -160px; bottom: -185px; }
-  .product .item__img img { position: relative; top: auto; left: auto; margin: 15px auto 0; width: 145px; height: 120px; } }
+.product .item__image { overflow: hidden; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#edf0f5+0,dbe0ea+100 */ background: #edf0f5; /* Old browsers */ background: -moz-linear-gradient(top, #edf0f5 0%, #dbe0ea 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(top, #edf0f5 0%, #dbe0ea 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(to bottom, #edf0f5 0%, #dbe0ea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf0f5', endColorstr='#dbe0ea',GradientType=0 ); /* IE6-9 */ border-radius: 50%; width: 320px; height: 320px; position: absolute; z-index: 300; }
+.product .item__image .item__img { z-index: 305; top: 30%; left: 34%; position: absolute; }
+.product .item__image_second img { top: 29%; left: 12%; }
+.product .item__image_third img { top: 17%; left: 9%; }
+@media only screen and (min-width: 1000px) { .product .item__image { left: -95px; top: -50px; }
+  .product .item__image .item__img-mob { display: none; }
+  .product .item__image_second { left: auto; right: -130px; }
+  .product .item__image_second .item__img { top: 29%; left: 12%; }
+  .product .item__image_third { left: auto; right: -297px; top: auto; bottom: -297px; width: 646px; height: 646px; }
+  .product .item__image_third .item__img { top: 17%; left: 9%; } }
+@media only screen and (max-width: 1000px) { .product .item__image { left: 50%; margin-left: -160px; bottom: -185px; }
+  .product .item__image .item__img { position: relative; top: auto; left: auto; margin: 15px auto 0; width: 145px; height: 120px; }
+  .product .item__image .item__img-des { display: none; }
+  .product .item__image .item__img-mob { display: block; }
+  .product .item__image_second .item__img { top: -25px; left: 15px; } }
 .product .item__bg { display: block; opacity: 0.38; width: 100%; height: auto; height: 100%; }
 .product .item__title { display: inline-block; position: absolute; color: #fff; font-size: 22px; z-index: 1000; text-decoration: none; border-bottom: 1px solid #fff; line-height: 1; }
 .product .item__title::before { content: ""; position: absolute; left: -22px; top: 9px; display: block; width: 13px; height: 13px; background: url(../img/yellow-circle.png) 0 0 no-repeat; }
