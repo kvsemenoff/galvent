@@ -198,7 +198,7 @@
       padding-bottom: 30px; } }
 
 .examples__img {
-  height: 285px;
+  height: 315px;
   position: relative; }
   .examples__img:after {
     content: "";
@@ -234,18 +234,27 @@
 .df-left, .df-right {
   background: #016491 url("../img/left.png") no-repeat center;
   position: absolute;
-  bottom: 10px;
-  left: 12px;
+  bottom: 47%;
+  left: 0px;
   display: inline-block;
   width: 55px;
   height: 55px;
   border-radius: 8px; }
   .df-left:hover, .df-right:hover {
     background-color: #ffcd72; }
+  @media only screen and (min-width: 770px) {
+    .df-left, .df-right {
+      left: 12px;
+      bottom: 10px; } }
 
 .df-right {
-  left: 77px;
+  left: unset;
+  right: 0;
   background: #016491 url("../img/right.png") no-repeat center; }
+  @media only screen and (min-width: 770px) {
+    .df-right {
+      left: 77px;
+      right: unset; } }
 
 .examples__look_more {
   background-color: #f2b600;
