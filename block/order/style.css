@@ -136,9 +136,13 @@
       font-size: 16px; } }
 
 .bread_menu__link:first-child {
-  padding-bottom: 4px; }
+  padding-bottom: 5px; }
+  .bread_menu__link:first-child a {
+    padding: 0 15px; }
   @media only screen and (min-width: 480px) {
     .bread_menu__link:first-child {
-      padding-bottom: 0px; } }
+      padding-bottom: 0; }
+      .bread_menu__link:first-child a {
+        padding: 0 20px 0 17px; } }
 
 /*# sourceMappingURL=style.css.map */
