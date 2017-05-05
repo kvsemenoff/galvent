@@ -261,7 +261,7 @@
 	background: #016491 url("../img/left.png") no-repeat center;
 	position: absolute;
 	bottom: 47%;
-	left: 0px;
+	left: -11px;
 	display: inline-block;
 	width: 55px;
 	height: 55px;
@@ -276,7 +276,7 @@
 }
 .df-right{
 	left: unset;
-	right: 0;
+	right: -11px;
 	background: #016491 url("../img/right.png") no-repeat center;
 	@media only screen and (min-width : 770px) {
 		left: 77px;
