@@ -1,6 +1,6 @@
 <div class="fast">
 	<div class="container">
-		<h2 class="h2 h2_light"><a href="#">Быстрый заказ</a></h2>
+		<h2 class="h2 h2_light"><span>Быстрый заказ</span></h2>
 		<div class="row">
 			<div class="fast__inner clearfix">
 				<div class="col-md-5">

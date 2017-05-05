@@ -451,6 +451,9 @@
 			border-bottom: 1px solid #c1d5e0;
 			line-height: 1.3;
 			padding-bottom: 2px;
+			&:hover{
+				border-bottom-color: transparent;
+			}
 		}
 		&__title{
 			font-size: 15px;
