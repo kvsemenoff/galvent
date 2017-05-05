@@ -38,19 +38,19 @@
             <div class="conv_list">
                 <ul class="conv_list__ul">
                     <li class="conv_list__item">
-                        <p class="conv_list__p">Как выбрать конвейер</p>
+                        <a href="#" class="conv_list__p">Как выбрать конвейер</a>
                     </li>
                     <li class="conv_list__item">
-                        <p class="conv_list__p">Какой конвейер лучше</p>
+                        <a href="#" class="conv_list__p">Какой конвейер лучше</a>
                     </li>
                     <li class="conv_list__item">
-                        <p class="conv_list__p">Почему стоит заказывать у нас</p>
+                        <a href="#" class="conv_list__p">Почему стоит заказывать у нас</a>
                     </li>
                     <li class="conv_list__item">
-                        <p class="conv_list__p">Гарантийное обслуживание</p>
+                        <a href="#" class="conv_list__p">Гарантийное обслуживание</a>
                     </li>
                     <li class="conv_list__item">
-                        <p class="conv_list__p">Пост гарантийное обслуживание</p>
+                        <a href="#" class="conv_list__p">Пост гарантийное обслуживание</a>
                     </li>
                 </ul>
             </div>
@@ -115,16 +115,16 @@
                     условий. С другой стороны постоянное информационно-пропагандистское обеспечение нашей деятельности
                     играет важную роль.
                 </p>
-                <div class="conv_images">
-                    <div class="conv_block__imgblock hidden-md hidden-lg">
+                <div class="clearfix conv_images">
+                    <div class="conv_block__imgblock hidden-sm hidden-md hidden-lg">
                         <img src="img/conv-img3.png" alt="Оборудование" class="conv_block__img conv_block__img3">
                     </div>
-                    <div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
+                    <div class="hidden-xs lent-sm col-md-6 col-lg-6 ">
                         <div class="conv_block__imgblock">
                             <img src="img/conv-img1.png" alt="Оборудование" class="conv_block__img">
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6  hidden-xs hidden-sm">
+                    <div class="hidden-xs  lent-sm col-md-6 col-lg-6  ">
                         <div class="conv_block__imgblock">
                             <img src="img/conv-img2.png" alt="Оборудование" class="conv_block__img">
                         </div>
@@ -132,9 +132,9 @@
                 </div>
             </div>
         </div>
-        <h3 class="conv_h3 hidden-md hidden-lg conv_m_h3">Какой конвейер лучше</h3>
         <div class="col-md-12">
             <div class="conv_block">
+                <h3 class="conv_h3 hidden-md hidden-lg conv_m_h3">Какой конвейер лучше</h3>
                 <h3 class="conv_h3 hidden-xs hidden-sm">Почему стоит заказывать у нас</h3>
                 <p class="conv_p conv_p_1">Разнообразный и богатый опыт сложившаяся структура организации влечет за
                     собой
