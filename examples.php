@@ -24,12 +24,12 @@
 			<div class="examples__slider">
 				<div class="item">
 					<div class="examples__img">
-						<a href="img/examples1.jpg" rel="group" ><img src="img/examples1.jpg" alt=""></a>
+						<a href="img/examples1.jpg" data-fancybox-group="group" ><img src="img/examples1.jpg" alt=""></a>
 					</div>
 				</div>
 				<div class="item">
 					<div class="examples__img">
-						<a href="img/examples1.jpg" rel="group"><img src="img/examples1.jpg" alt=""></a>
+						<a href="img/examples1.jpg" data-fancybox-group="group"><img src="img/examples1.jpg" alt=""></a>
 					</div>
 				</div>
 			</div>
@@ -40,12 +40,12 @@
 			<div class="examples__slider">
 				<div class="item">
 					<div class="examples__img">
-						<a href="img/examples2.jpg" rel="group"><img src="img/examples2.jpg" alt=""></a>
+						<a href="img/examples2.jpg" data-fancybox-group="group"><img src="img/examples2.jpg" alt=""></a>
 					</div>
 				</div>
 				<div class="item">
 					<div class="examples__img">
-						<a href="img/examples1.jpg" rel="group"><img src="img/examples1.jpg" alt=""></a>
+						<a href="img/examples1.jpg" data-fancybox-group="group"><img src="img/examples1.jpg" alt=""></a>
 					</div>
 				</div>
 			</div>
@@ -56,12 +56,12 @@
 			<div class="examples__slider">
 				<div class="item">
 					<div class="examples__img">
-						<a href="img/examples3.jpg" rel="group"><img src="img/examples3.jpg" alt=""></a>
+						<a href="img/examples3.jpg" data-fancybox-group="group"><img src="img/examples3.jpg" alt=""></a>
 					</div>
 				</div>
 				<div class="item">
 					<div class="examples__img">
-						<a href="img/examples1.jpg" rel="group"><img src="img/examples1.jpg" alt=""></a>
+						<a href="img/examples1.jpg" data-fancybox-group="group"><img src="img/examples1.jpg" alt=""></a>
 					</div>
 				</div>
 			</div>
@@ -73,12 +73,12 @@
 			<div class="examples__slider">
 				<div class="item">
 					<div class="examples__img">
-						<a href="img/examples3.jpg" rel="group"><img src="img/examples3.jpg" alt=""></a>
+						<a href="img/examples3.jpg" data-fancybox-group="group"><img src="img/examples3.jpg" alt=""></a>
 					</div>
 				</div>
 				<div class="item">
 					<div class="examples__img">
-						<a href="img/examples1.jpg" rel="group"><img src="img/examples1.jpg" alt=""></a>
+						<a href="img/examples1.jpg" data-fancybox-group="group"><img src="img/examples1.jpg" alt=""></a>
 					</div>
 				</div>
 			</div>
@@ -89,12 +89,12 @@
 			<div class="examples__slider">
 				<div class="item">
 					<div class="examples__img">
-						<a href="img/examples3.jpg" rel="group"><img src="img/examples3.jpg" alt=""></a>
+						<a href="img/examples3.jpg" data-fancybox-group="group"><img src="img/examples3.jpg" alt=""></a>
 					</div>
 				</div>
 				<div class="item">
 					<div class="examples__img">
-						<a href="img/examples1.jpg" rel="group"><img src="img/examples1.jpg" alt=""></a>
+						<a href="img/examples1.jpg" data-fancybox-group="group"><img src="img/examples1.jpg" alt=""></a>
 					</div>
 				</div>
 			</div>

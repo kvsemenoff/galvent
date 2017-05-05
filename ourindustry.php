@@ -23,12 +23,12 @@
 	</p>	
 
 	<div class="ourindustry__img_box">
-		<a href="img/ourindustry1.jpg" class="ourindustry__link" rel="group"><img src="img/ourindustry1.jpg" alt=""></a>
-		<a href="img/ourindustry2.jpg" class="ourindustry__link" rel="group"><img src="img/ourindustry2.jpg" alt=""></a>
-		<a href="img/ourindustry3.jpg" class="ourindustry__link" rel="group"><img src="img/ourindustry3.jpg" alt=""></a>
-		<a href="img/ourindustry4.jpg" class="ourindustry__link" rel="group"><img src="img/ourindustry4.jpg" alt=""></a>
-		<a href="img/ourindustry5.jpg" class="ourindustry__link" rel="group"><img src="img/ourindustry5.jpg" alt=""></a>
-		<a href="img/ourindustry6.jpg" class="ourindustry__link" rel="group"><img src="img/ourindustry6.jpg" alt=""></a>
+		<a href="img/ourindustry1.jpg" class="ourindustry__link" data-fancybox-group="group"><img src="img/ourindustry1.jpg" alt=""></a>
+		<a href="img/ourindustry2.jpg" class="ourindustry__link" data-fancybox-group="group"><img src="img/ourindustry2.jpg" alt=""></a>
+		<a href="img/ourindustry3.jpg" class="ourindustry__link" data-fancybox-group="group"><img src="img/ourindustry3.jpg" alt=""></a>
+		<a href="img/ourindustry4.jpg" class="ourindustry__link" data-fancybox-group="group"><img src="img/ourindustry4.jpg" alt=""></a>
+		<a href="img/ourindustry5.jpg" class="ourindustry__link" data-fancybox-group="group"><img src="img/ourindustry5.jpg" alt=""></a>
+		<a href="img/ourindustry6.jpg" class="ourindustry__link" data-fancybox-group="group"><img src="img/ourindustry6.jpg" alt=""></a>
 	</div>
 
 	
