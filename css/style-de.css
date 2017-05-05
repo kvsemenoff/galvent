@@ -1,5 +1,6 @@
 .fancybox-skin {
-  border-radius: 6px;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
   background: #fff;
   padding: 3px !important; }
 
@@ -42,11 +43,11 @@
         float: none; } }
   .product .item__inner {
     display: block;
-    border-radius: 7px;
+    -webkit-border-radius: 7px;
+            border-radius: 7px;
     overflow: hidden;
     height: 225px;
     -webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
     position: relative;
     background: #335bab; }
@@ -84,15 +85,16 @@
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#edf0f5+0,dbe0ea+100 */
     background: #edf0f5;
     /* Old browsers */
-    background: -moz-linear-gradient(top, #edf0f5 0%, #dbe0ea 100%);
     /* FF3.6-15 */
     background: -webkit-linear-gradient(top, #edf0f5 0%, #dbe0ea 100%);
     /* Chrome10-25,Safari5.1-6 */
+    background: -webkit-gradient(linear, left top, left bottom, from(#edf0f5), to(#dbe0ea));
     background: linear-gradient(to bottom, #edf0f5 0%, #dbe0ea 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf0f5', endColorstr='#dbe0ea',GradientType=0 );
     /* IE6-9 */
-    border-radius: 50%;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
     width: 320px;
     height: 320px;
     position: absolute;
@@ -253,7 +255,9 @@
       .fast__triangle {
         top: auto;
         bottom: -21px;
-        transform: rotate(180deg); } }
+        -webkit-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+                transform: rotate(180deg); } }
     .fast__triangle::before {
       content: "";
       position: absolute;
@@ -274,7 +278,8 @@
     background: url(../img/fast-bg.png) 130% 122% no-repeat;
     margin: 40px 0 0;
     border: 4px solid #efefef;
-    border-radius: 3px;
+    -webkit-border-radius: 3px;
+            border-radius: 3px;
     position: relative;
     padding: 15px 35px; }
     @media only screen and (max-width: 700px) {
@@ -346,7 +351,8 @@
     background-color: #e8eff2;
     padding: 20px 10px 0 64px;
     height: 122px;
-    border-radius: 7px;
+    -webkit-border-radius: 7px;
+            border-radius: 7px;
     position: relative; }
     .contacts .item::before {
       content: "";
@@ -489,7 +495,8 @@
   .about .photo {
     display: block;
     border: 5px solid #e5e5e5;
-    border-radius: 5px;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
     background: #233944;
     overflow: hidden; }
     @media only screen and (max-width: 700px) {
@@ -517,7 +524,8 @@
       padding: 15px; } }
   .article__img {
     position: relative;
-    border-radius: 4px;
+    -webkit-border-radius: 4px;
+            border-radius: 4px;
     overflow: hidden;
     margin-bottom: 10px; }
     .article__img img {
@@ -579,13 +587,15 @@
     background: #eeeeef; }
   .article__page {
     display: inline-block;
-    border-radius: 4px;
+    -webkit-border-radius: 4px;
+            border-radius: 4px;
     width: 37px;
     line-height: 37px;
     text-align: center;
     background: #fff;
     color: #434444;
     font-size: 14px;
+    -webkit-transition: 0.3s all ease;
     transition: 0.3s all ease;
     margin: 0 10px 10px 0; }
     .article__page:hover {
@@ -598,8 +608,10 @@
     color: #fff;
     line-height: 37px;
     padding: 0 33px 0 20px;
+    -webkit-transition: 0.3s all ease;
     transition: 0.3s all ease;
-    border-radius: 4px;
+    -webkit-border-radius: 4px;
+            border-radius: 4px;
     background: #006087 url(../img/article__nav-ic.png) center right 15px no-repeat; }
     .article__nav-button:hover {
       background-color: #023245; }
@@ -610,8 +622,5 @@
     left: 4% !important; }
     .fancybox-wrap .fancybox-inner, .fancybox-desktop .fancybox-inner, .fancybox-type-image .fancybox-inner, .fancybox-opened .fancybox-inner {
       width: 100% !important; }
-
   .fancybox-close {
     right: -3px; } }
-
-/*# sourceMappingURL=style-de.css.map */
