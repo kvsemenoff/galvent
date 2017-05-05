@@ -1,5 +1,5 @@
 <?php require_once('includes/header.php'); ?>
-<?php require_once('includes/header-top.php'); ?>
+<?php require_once('includes/header-top-main.php'); ?>
 <div class="bread_menu bread_menu_bg_img conveyors_page">   
     <div class="container pos-relative">
         <ul class="bread_menu__menu">
@@ -7,7 +7,7 @@
              <li class="bread_menu__link "><a href="#" >Последние статьи</a></li>
             <li class="bread_menu__link"><span>Ленточные конвейеры</span></li>
         </ul>
-        <a href="#modal__form_order" class="fancybox order_curcle_innerpage conveyors_page_circle">
+        <a href="#modal__form_order" class="fancybox order_curcle_innerpage conveyors_page_circle my_circle">
             <span class="order_curcle__text toppadding">On-line</span>
             <span class="order_curcle__text">заявка</span>
         </a>
@@ -59,19 +59,19 @@
             <div class="conv_list">
                 <ul class="conv_list__ul">
                     <li class="conv_list__item">
-                        <p class="conv_list__p">Как выбрать конвейер</p>
+                        <a href="#" class="conv_list__p">Как выбрать конвейер</a>
                     </li>
                     <li class="conv_list__item">
-                        <p class="conv_list__p">Какой конвейер лучше</p>
+                        <a href="#" class="conv_list__p">Какой конвейер лучше</a>
                     </li>
                     <li class="conv_list__item">
-                        <p class="conv_list__p">Почему стоит заказывать у нас</p>
+                        <a href="#" class="conv_list__p">Почему стоит заказывать у нас</a>
                     </li>
                     <li class="conv_list__item">
-                        <p class="conv_list__p">Гарантийное обслуживание</p>
+                        <a href="#" class="conv_list__p">Гарантийное обслуживание</a>
                     </li>
                     <li class="conv_list__item">
-                        <p class="conv_list__p">Пост гарантийное обслуживание</p>
+                        <a href="#" class="conv_list__p">Пост гарантийное обслуживание</a>
                     </li>
                 </ul>
             </div>

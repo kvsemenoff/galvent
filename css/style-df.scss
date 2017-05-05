@@ -3,7 +3,7 @@
 }
 .conveyors_page_circle{
 	position: absolute;
-	top: 8px;
+	top: -10px;
 	right: 32px;
 	z-index: 99;
 }
@@ -218,7 +218,7 @@
 	
 }
 .examples__img {
-	height: 285px;
+	height: 315px;
 	position: relative;
 	&:after{
 		content: "";
@@ -260,8 +260,8 @@
 .df-left, .df-right{
 	background: #016491 url("../img/left.png") no-repeat center;
 	position: absolute;
-	bottom: 10px;
-	left: 12px;
+	bottom: 47%;
+	left: 0px;
 	display: inline-block;
 	width: 55px;
 	height: 55px;
@@ -269,10 +269,19 @@
 	&:hover{
 		background-color: #ffcd72;
 	}
+	@media only screen and (min-width : 770px) {
+		left: 12px;
+		bottom: 10px;
+	}
 }
 .df-right{
-	left: 77px;
+	left: unset;
+	right: 0;
 	background: #016491 url("../img/right.png") no-repeat center;
+	@media only screen and (min-width : 770px) {
+		left: 77px;
+		right: unset;
+	}
 }
 
 
