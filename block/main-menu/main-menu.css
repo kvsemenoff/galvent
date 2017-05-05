@@ -48,6 +48,8 @@
         margin: 0 19px;
         padding: 17px 0;
         border-bottom: 4px solid transparent; }
+        .menu-wrap .main-menu li a:hover {
+          border-color: #f2b600; }
         @media only screen and (min-width: 1200px) {
           .menu-wrap .main-menu li a {
             font-size: 14px;
