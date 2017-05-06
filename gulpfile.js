@@ -81,6 +81,7 @@ var js_our = new Array(
 	'js/fonts.js'
 );
 var js_libs = new Array(
+	'js/map.js',
 	'libs/jquery/jquery-1.11.1.min.js',
 	'libs/owl.carousel/owl.carousel.js',
 	'libs/fancybox/jquery.fancybox.pack.js',
