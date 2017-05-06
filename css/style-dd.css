@@ -630,6 +630,9 @@
     text-decoration: underline;
     background: url(../img/ordergalka2.png) no-repeat left center;
     padding-left: 20px; }
+    @media only screen and (min-width: 550px) {
+      .online__mess a {
+        display: none; } }
 
 .toggle__menu {
   text-align: left;

@@ -728,6 +728,9 @@
 		// border-bottom: 1px solid #EDDFB7;
 		background:url(../img/ordergalka2.png) no-repeat left center;
 		padding-left: 20px;
+		@media only screen and (min-width : 550px) {
+			display: none;
+		}
 
 	}
 }
